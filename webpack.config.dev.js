@@ -42,7 +42,8 @@ let webpackBaseConfig  = {
             'router': path.resolve(__dirname, publicSrcPath+'/router'),
             'vendor': path.resolve(__dirname, publicSrcPath+'/vendor'),
             'static': path.resolve(__dirname, publicSrcPath+'/static'),
-            'fonts':path.resolve(__dirname, publicSrcPath+"/assets/custom-theme/fonts")
+            'fonts':path.resolve(__dirname, publicSrcPath+"/assets/custom-theme/fonts"),
+            'img': path.resolve(__dirname,publicSrcPath+'/assets/img')
         }
     },
     module: {
