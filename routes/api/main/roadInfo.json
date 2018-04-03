@@ -1,0 +1,683 @@
+{
+  "code": "0",
+  "msg": "get data successfully",
+  "data": {
+    "roadInfoGeneral": {
+      "trafficAccident": "3",
+      "userRate": "68",
+      "crowdTime": "7:38~9:26 16:43~18:57",
+      "lowUserRate": "326"
+    },
+    "roadInfoTable": [
+      {
+        "name": "艮山东路",
+        "crowdTime": "7:17~9:02 17:21~18:13",
+        "crowdUtilization": "121%",
+        "dayUtilization": "71%",
+        "trafficFlow": "34572",
+        "illegalMatter": "5",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "艮山西路",
+        "crowdTime": "7:11~9:12 17:11~18:43",
+        "crowdUtilization": "132%",
+        "dayUtilization": "79%",
+        "trafficFlow": "31989",
+        "illegalMatter": "7",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "环城北路",
+        "crowdTime": "7:24~9:27 16:45~18:12",
+        "crowdUtilization": "134%",
+        "dayUtilization": "74%",
+        "trafficFlow": "33562",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "天目山路",
+        "crowdTime": "7:39~9:17 17:05~18:21",
+        "crowdUtilization": "126%",
+        "dayUtilization": "70%",
+        "trafficFlow": "33191",
+        "illegalMatter": "5",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "德胜快速路",
+        "crowdTime": "7:06~9:49 16:25~18:58",
+        "crowdUtilization": "145%",
+        "dayUtilization": "82%",
+        "trafficFlow": "37612",
+        "illegalMatter": "5",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "文一路",
+        "crowdTime": "7:03~9:51 16:15~19:11",
+        "crowdUtilization": "145%",
+        "dayUtilization": "83%",
+        "trafficFlow": "36901",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "文一西路",
+        "crowdTime": "7:09~9:43 16:22~18:59",
+        "crowdUtilization": "139%",
+        "dayUtilization": "82%",
+        "trafficFlow": "35992",
+        "illegalMatter": "5",
+        "trafficAccident": "1"
+      },
+      {
+        "name": "庆春东路",
+        "crowdTime": "7:12~9:54 16:47~18:29",
+        "crowdUtilization": "138%",
+        "dayUtilization": "83%",
+        "trafficFlow": "36711",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "庆春西路",
+        "crowdTime": "7:13~9:46 16:52~18:21",
+        "crowdUtilization": "132%",
+        "dayUtilization": "80%",
+        "trafficFlow": "34241",
+        "illegalMatter": "2",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "凤起路",
+        "crowdTime": "7:21~9:41 16:55~18:30",
+        "crowdUtilization": "134%",
+        "dayUtilization": "81%",
+        "trafficFlow": "36452",
+        "illegalMatter": "3",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "解放东路",
+        "crowdTime": "7:19~9:43 16:51~18:33",
+        "crowdUtilization": "129%",
+        "dayUtilization": "82%",
+        "trafficFlow": "35489",
+        "illegalMatter": "6",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "解放路",
+        "crowdTime": "7:13~9:39 16:54~18:28",
+        "crowdUtilization": "131%",
+        "dayUtilization": "83%",
+        "trafficFlow": "34521",
+        "illegalMatter": "5",
+        "trafficAccident": "1"
+      },
+      {
+        "name": "莫干山路",
+        "crowdTime": "7:02~9:39 16:49~18:14",
+        "crowdUtilization": "129%",
+        "dayUtilization": "82%",
+        "trafficFlow": "35789",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "环城西路",
+        "crowdTime": "7:11~9:42 16:32~18:31",
+        "crowdUtilization": "137%",
+        "dayUtilization": "85%",
+        "trafficFlow": "37659",
+        "illegalMatter": "5",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "东新路",
+        "crowdTime": "7:09~9:50 16:29~18:47",
+        "crowdUtilization": "136%",
+        "dayUtilization": "84%",
+        "trafficFlow": "37689",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "绍兴路",
+        "crowdTime": "7:43~9:34 16:48~18:17",
+        "crowdUtilization": "126%",
+        "dayUtilization": "78%",
+        "trafficFlow": "32563",
+        "illegalMatter": "3",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "环城东路",
+        "crowdTime": "7:24~9:43 16:35~18:28",
+        "crowdUtilization": "129%",
+        "dayUtilization": "80%",
+        "trafficFlow": "33763",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "古墩路",
+        "crowdTime": "7:12~9:53 16:12~18:41",
+        "crowdUtilization": "137%",
+        "dayUtilization": "85%",
+        "trafficFlow": "34529",
+        "illegalMatter": "5",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "古翠路",
+        "crowdTime": "7:02~9:58 16:04~18:52",
+        "crowdUtilization": "138%",
+        "dayUtilization": "88%",
+        "trafficFlow": "36799",
+        "illegalMatter": "6",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "秋涛路",
+        "crowdTime": "7:19~9:34 16:34~18:11",
+        "crowdUtilization": "124%",
+        "dayUtilization": "76%",
+        "trafficFlow": "32474",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "延安路",
+        "crowdTime": "7:09~9:52 16:14~18:49",
+        "crowdUtilization": "136%",
+        "dayUtilization": "83%",
+        "trafficFlow": "35589",
+        "illegalMatter": "7",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "建国北路",
+        "crowdTime": "7:34~9:41 16:34~18:26",
+        "crowdUtilization": "123%",
+        "dayUtilization": "77%",
+        "trafficFlow": "35462",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "中河路",
+        "crowdTime": "7:11~9:52 16:18~18:56",
+        "crowdUtilization": "135%",
+        "dayUtilization": "81%",
+        "trafficFlow": "36780",
+        "illegalMatter": "5",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "上塘路",
+        "crowdTime": "7:23~9:43 16:28~18:43",
+        "crowdUtilization": "134%",
+        "dayUtilization": "79%",
+        "trafficFlow": "35467",
+        "illegalMatter": "4",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "江南大道",
+        "crowdTime": "8:01~9:13 16:58~18:11",
+        "crowdUtilization": "116%",
+        "dayUtilization": "80%",
+        "trafficFlow": "34896",
+        "illegalMatter": "3",
+        "trafficAccident": "0"
+      },
+      {
+        "name": "滨盛路",
+        "crowdTime": "7:57~9:21 16:57~18:05",
+        "crowdUtilization": "119%",
+        "dayUtilization": "80%",
+        "trafficFlow": "34711",
+        "illegalMatter": "3",
+        "trafficAccident": "0"
+      }
+    ],
+    "roadInfoPieChart": {
+      "car": "27632",
+      "bus": "1002",
+      "truck": "3065",
+      "coach": "374",
+      "minibus": "2931",
+      "else": "2435"
+    },
+    "roadInfoLineChart": [
+      {
+        "averageUserRate": "74%",
+        "crowdUserRate": "114%",
+        "freeUserRate": "52%",
+        "month": "Jan"
+      },
+      {
+        "averageUserRate": "83%",
+        "crowdUserRate": "135%",
+        "freeUserRate": "61%",
+        "month": "Feb"
+      },
+      {
+        "averageUserRate": "71%",
+        "crowdUserRate": "124%",
+        "freeUserRate": "52%",
+        "month": "Mar"
+      },
+      {
+        "averageUserRate": "72%",
+        "crowdUserRate": "121%",
+        "freeUserRate": "53%",
+        "month": "Apr"
+      },
+      {
+        "averageUserRate": "74%",
+        "crowdUserRate": "123%",
+        "freeUserRate": "55%",
+        "month": "May"
+      },
+      {
+        "averageUserRate": "79%",
+        "crowdUserRate": "127%",
+        "freeUserRate": "59%",
+        "month": "Jun"
+      },
+      {
+        "averageUserRate": "89%",
+        "crowdUserRate": "135%",
+        "freeUserRate": "69%",
+        "month": "Jul"
+      },
+      {
+        "averageUserRate": "86%",
+        "crowdUserRate": "133%",
+        "freeUserRate": "68%",
+        "month": "Aug"
+      },
+      {
+        "averageUserRate": "83%",
+        "crowdUserRate": "131%",
+        "freeUserRate": "66%",
+        "month": "Sem"
+      },
+      {
+        "averageUserRate": "86%",
+        "crowdUserRate": "140%",
+        "freeUserRate": "69%",
+        "month": "Ocb"
+      },
+      {
+        "averageUserRate": "81%",
+        "crowdUserRate": "131%",
+        "freeUserRate": "65%",
+        "month": "Nov"
+      },
+      {
+        "averageUserRate": "80%",
+        "crowdUserRate": "124%",
+        "freeUserRate": "62%",
+        "month": "Dec"
+      }
+    ],
+    "roadInfoLineMaker": [
+      {
+        "areaSC": {
+          "roadUserRate": "80%"
+        },
+        "areaXH": {
+          "roadUserRate": "81%"
+        },
+        "areaBJ": {
+          "roadUserRate": "73%"
+        },
+        "areaGS": {
+          "roadUserRate": "71%"
+        },
+        "areaXS": {
+          "roadUserRate": "77%"
+        },
+        "areaYH": {
+          "roadUserRate": "73%"
+        },
+        "areaXC": {
+          "roadUserRate": "80%"
+        },
+        "areaJG": {
+          "roadUserRate": "69%"
+        },
+        "time": "8:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "86%"
+        },
+        "areaXH": {
+          "roadUserRate": "85%"
+        },
+        "areaBJ": {
+          "roadUserRate": "77%"
+        },
+        "areaGS": {
+          "roadUserRate": "78%"
+        },
+        "areaXS": {
+          "roadUserRate": "82%"
+        },
+        "areaYH": {
+          "roadUserRate": "84%"
+        },
+        "areaXC": {
+          "roadUserRate": "88%"
+        },
+        "areaJG": {
+          "roadUserRate": "75%"
+        },
+        "time": "9:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "85%"
+        },
+        "areaXH": {
+          "roadUserRate": "84%"
+        },
+        "areaBJ": {
+          "roadUserRate": "78%"
+        },
+        "areaGS": {
+          "roadUserRate": "79%"
+        },
+        "areaXS": {
+          "roadUserRate": "82%"
+        },
+        "areaYH": {
+          "roadUserRate": "86%"
+        },
+        "areaXC": {
+          "roadUserRate": "89%"
+        },
+        "areaJG": {
+          "roadUserRate": "77%"
+        },
+        "time": "10:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "81%"
+        },
+        "areaXH": {
+          "roadUserRate": "82%"
+        },
+        "areaBJ": {
+          "roadUserRate": "74%"
+        },
+        "areaGS": {
+          "roadUserRate": "75%"
+        },
+        "areaXS": {
+          "roadUserRate": "79%"
+        },
+        "areaYH": {
+          "roadUserRate": "81%"
+        },
+        "areaXC": {
+          "roadUserRate": "84%"
+        },
+        "areaJG": {
+          "roadUserRate": "75%"
+        },
+        "time": "11:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "77%"
+        },
+        "areaXH": {
+          "roadUserRate": "78%"
+        },
+        "areaBJ": {
+          "roadUserRate": "71%"
+        },
+        "areaGS": {
+          "roadUserRate": "74%"
+        },
+        "areaXS": {
+          "roadUserRate": "73%"
+        },
+        "areaYH": {
+          "roadUserRate": "78%"
+        },
+        "areaXC": {
+          "roadUserRate": "81%"
+        },
+        "areaJG": {
+          "roadUserRate": "73%"
+        },
+        "time": "12:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "78%"
+        },
+        "areaXH": {
+          "roadUserRate": "80%"
+        },
+        "areaBJ": {
+          "roadUserRate": "76%"
+        },
+        "areaGS": {
+          "roadUserRate": "73%"
+        },
+        "areaXS": {
+          "roadUserRate": "77%"
+        },
+        "areaYH": {
+          "roadUserRate": "75%"
+        },
+        "areaXC": {
+          "roadUserRate": "78%"
+        },
+        "areaJG": {
+          "roadUserRate": "77%"
+        },
+        "time": "13:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "73%"
+        },
+        "areaXH": {
+          "roadUserRate": "73%"
+        },
+        "areaBJ": {
+          "roadUserRate": "72%"
+        },
+        "areaGS": {
+          "roadUserRate": "65%"
+        },
+        "areaXS": {
+          "roadUserRate": "70%"
+        },
+        "areaYH": {
+          "roadUserRate": "67%"
+        },
+        "areaXC": {
+          "roadUserRate": "68%"
+        },
+        "areaJG": {
+          "roadUserRate": "64%"
+        },
+        "time": "14:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "69%"
+        },
+        "areaXH": {
+          "roadUserRate": "65%"
+        },
+        "areaBJ": {
+          "roadUserRate": "66%"
+        },
+        "areaGS": {
+          "roadUserRate": "61%"
+        },
+        "areaXS": {
+          "roadUserRate": "67%"
+        },
+        "areaYH": {
+          "roadUserRate": "66%"
+        },
+        "areaXC": {
+          "roadUserRate": "64%"
+        },
+        "areaJG": {
+          "roadUserRate": "65%"
+        },
+        "time": "15:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "79%"
+        },
+        "areaXH": {
+          "roadUserRate": "77%"
+        },
+        "areaBJ": {
+          "roadUserRate": "75%"
+        },
+        "areaGS": {
+          "roadUserRate": "70%"
+        },
+        "areaXS": {
+          "roadUserRate": "76%"
+        },
+        "areaYH": {
+          "roadUserRate": "73%"
+        },
+        "areaXC": {
+          "roadUserRate": "76%"
+        },
+        "areaJG": {
+          "roadUserRate": "75%"
+        },
+        "time": "16:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "85%"
+        },
+        "areaXH": {
+          "roadUserRate": "87%"
+        },
+        "areaBJ": {
+          "roadUserRate": "85%"
+        },
+        "areaGS": {
+          "roadUserRate": "79%"
+        },
+        "areaXS": {
+          "roadUserRate": "82%"
+        },
+        "areaYH": {
+          "roadUserRate": "83%"
+        },
+        "areaXC": {
+          "roadUserRate": "84%"
+        },
+        "areaJG": {
+          "roadUserRate": "85%"
+        },
+        "time": "17:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "88%"
+        },
+        "areaXH": {
+          "roadUserRate": "89%"
+        },
+        "areaBJ": {
+          "roadUserRate": "89%"
+        },
+        "areaGS": {
+          "roadUserRate": "85%"
+        },
+        "areaXS": {
+          "roadUserRate": "90%"
+        },
+        "areaYH": {
+          "roadUserRate": "86%"
+        },
+        "areaXC": {
+          "roadUserRate": "90%"
+        },
+        "areaJG": {
+          "roadUserRate": "85%"
+        },
+        "time": "18:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "86%"
+        },
+        "areaXH": {
+          "roadUserRate": "88%"
+        },
+        "areaBJ": {
+          "roadUserRate": "86%"
+        },
+        "areaGS": {
+          "roadUserRate": "84%"
+        },
+        "areaXS": {
+          "roadUserRate": "88%"
+        },
+        "areaYH": {
+          "roadUserRate": "88%"
+        },
+        "areaXC": {
+          "roadUserRate": "89%"
+        },
+        "areaJG": {
+          "roadUserRate": "81%"
+        },
+        "time": "19:00"
+      },
+      {
+        "areaSC": {
+          "roadUserRate": "83%"
+        },
+        "areaXH": {
+          "roadUserRate": "82%"
+        },
+        "areaBJ": {
+          "roadUserRate": "81%"
+        },
+        "areaGS": {
+          "roadUserRate": "83%"
+        },
+        "areaXS": {
+          "roadUserRate": "85%"
+        },
+        "areaYH": {
+          "roadUserRate": "83%"
+        },
+        "areaXC": {
+          "roadUserRate": "87%"
+        },
+        "areaJG": {
+          "roadUserRate": "74%"
+        },
+        "time": "20:00"
+      }
+    ]
+  }
+}
