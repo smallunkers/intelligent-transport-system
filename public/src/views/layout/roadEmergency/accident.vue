@@ -3,9 +3,9 @@
         <el-row>
             <el-col :span="20" :offset="2">
                 <el-carousel :interval="4000" trigger="click" type="card" v-if="getRoadEmergency.accident" @change="handleChange">
-                    <el-carousel-item v-for="(item,index) in getRoadEmergency.accident.carouselData" :key=index>
-                        <div class="carousel-img-wrapper" v-html="imgFormatter">
-
+                    <el-carousel-item v-for="(item,index) in imgFormatter" :key=index>
+                        <div class="carousel-img-wrapper">
+                            <img :src="require(`../../../assets/img/carousel_img${index+1}.jpg`)" />
                         </div>
                         <div class="carousel-content-wrapper" v-show=" activeIndex == index ? true: false">
                             <span class="carousel-content">{{item.content}}</span>
@@ -48,17 +48,14 @@
     export default {
         data () {
             return{
-                carouselData:[
-                    {
-                        title:'',
-                    }
-                ],
+                carouselData:[],
                 tableData:[],
                 activeIndex:'',
                 img1:require('../../../assets/img/carousel_img1.jpg'),
                 img2:require('../../../assets/img/carousel_img2.jpg'),
                 img3:require('../../../assets/img/carousel_img3.jpg'),
-                html:''
+                html:'',
+                flag:'',
             }
         },
         methods:{
@@ -76,18 +73,24 @@
             },
             imgFormatter () {
                 if(this.getRoadEmergency.accident) {
-                    let data = this.getRoadEmergency.accident.carouselData
+                    let data = this.getRoadEmergency.accident.carouselData;
                     for (let i=0;i < data.length; i++) {
-                        if(data[i].url.indexOf('1') > 0) {
-                            this.html = `<img src="${this.img1}" class=""/>`
-                        }else if (data[i].url.indexOf('2') > 0) {
-                            this.html = `<img src="${this.img2}" class=""/>`
-                        }else if (data[i].url.indexOf('3')){
-                            this.html = `<img src="${this.img3}" class=""/>`
-                        }
+                        let item = {};
+//                        let source = `../../../assets/img/carousel_img${i+1}.jpg`;
+//                        item.src=require(source);
+                        item.content = data[i].content;
+//                        this.flag = data[i].url;
+//                        if(this.flag.indexOf('1') > 0) {
+//                            this.html = `<img src="${this.img1}" class=""/>`
+//                        }else if (this.flag.indexOf('2') > 0) {
+//                            this.html = `<img src="${this.img2}" class=""/>`
+//                        }else if (this.flag.indexOf('3')){
+//                            this.html = `<img src="${this.img3}" class=""/>`
+//                        }
+                        this.carouselData.push(item);
                     }
                 }
-                return this.html;
+                return this.carouselData;
             },
             tableDataFormatter () {
                 if(this.getRoadEmergency.accident.accidentAllData) {
