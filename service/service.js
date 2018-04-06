@@ -22,5 +22,8 @@ module.exports = {
     },
     roadEmergencyAll(parameters) {
         return requestTis(url,parameters);
+    },
+    roadMapAll(parameters) {
+        return requestTis(url,parameters);
     }
 };
