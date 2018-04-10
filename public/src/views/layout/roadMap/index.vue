@@ -17,13 +17,6 @@
                 </div>
             </el-col>
         </el-row>
-        <el-row>
-            <el-col :span="20" :offset="2">
-                <el-table>
-                    <!--<el-table-colmun></el-table-colmun>-->
-                </el-table>
-            </el-col>
-        </el-row>
     </div>
 </template>
 <script>
@@ -36,19 +29,17 @@
                 map:null
             }
         },
-        created () {
-          this.$store.dispath('roadMapGeneral').then((resp) => {
-              if (resp.code=='0') {
-                  console.log('roadMap axios successfully');
-                  this.roadMapDataFormatter();
-              } else {
-                  console.log(resp.msg);
-              }
-          })
-        },
         mounted () {
             this.initMap();
             this.addMapControl();
+            this.$store.dispatch('roadMapGeneral').then((resp) => {
+                if (resp.code=='0') {
+                    console.log('roadMap axios successfully');
+                    this.roadMapDataFormatter();
+                } else {
+                    console.log(resp.msg);
+                }
+            })
         },
         components:{
             Col,Row,Table,Input,Button
@@ -58,9 +49,9 @@
                 // 初始化容器
                  this.map = new BMap.Map("my-map-wrapper");
                 // 初始化座标
-                let point = new BMap.Point(120.13,30.27);
+                let point = new BMap.Point(120.126039,30.285346);
                 // 地图級別
-                this.map.centerAndZoom(point, 14);
+                this.map.centerAndZoom(point, 15);
                 // 添加地图
                 this.map.addControl(new BMap.MapTypeControl());
                 // 滚轮
@@ -103,19 +94,19 @@
                         for(let j=0; j <dataGreen.length;j++) {
                             let pointStart = new BMap.Point(dataGreen[j].startLgd,dataGreen[j].startLat);
                             let pointEnd = new BMap.Point(dataGreen[j].endLgd,dataGreen[j].endLat);
-                            let polyline = new BMap.Polyline([pointStart,pointEnd],{strokeColor:"green", strokeWeight:3, strokeOpacity:0.5});
+                            let polyline = new BMap.Polyline([pointStart,pointEnd],{strokeColor:"green", strokeWeight:4, strokeOpacity:0.5});
                             this.map.addOverlay(polyline);
                          }
                         for(let a=0; a<dataYellow.length;a++) {
                             let pointStart = new BMap.Point(dataYellow[a].startLgd,dataYellow[a].startLat);
                             let pointEnd = new BMap.Point(dataYellow[a].endLgd,dataYellow[a].endLat);
-                            let polyline = new BMap.Polyline([pointStart,pointEnd],{strokeColor:"yellow", strokeWeight:3, strokeOpacity:0.5});
+                            let polyline = new BMap.Polyline([pointStart,pointEnd],{strokeColor:"yellow", strokeWeight:4, strokeOpacity:0.6});
                             this.map.addOverlay(polyline);
                         }
                         for (let b = 0; b < dataRed.length; b++) {
-                            let pointStart = new BMap.Point(dataRed[a].startLgd,dataRed[a].startLat);
-                            let pointEnd = new BMap.Point(dataRed[a].endLgd,dataRed[a].endLat);
-                            let polyline = new BMap.Polyline([pointStart,pointEnd],{strokeColor:"red", strokeWeight:3, strokeOpacity:0.5});
+                            let pointStart = new BMap.Point(dataRed[b].startLgd,dataRed[b].startLat);
+                            let pointEnd = new BMap.Point(dataRed[b].endLgd,dataRed[b].endLat);
+                            let polyline = new BMap.Polyline([pointStart,pointEnd],{strokeColor:"red", strokeWeight:4, strokeOpacity:0.7});
                             this.map.addOverlay(polyline);
                         }
                     }
@@ -133,19 +124,24 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-    .map-wrapper{
-        height 500px;
-        margin-bottom 20px;
+    .map-container{
+        width 100%;
+        height 100%;
+        .map-wrapper{
+            min-height 750px;
+            width 100%;
+            margin-bottom 20px;
         }
-    .map-input-search{
-        position absolute;
-        top 2px;
-        right 200px;
-        width 200px;
-        height 40px;
-        z-index 99;
-        .el-button{
+        .map-input-search{
+            position absolute;
+            top 2px;
+            right 200px;
+            width 200px;
             height 40px;
+            z-index 99;
+            .el-button{
+                height 40px;
+            }
         }
     }
 </style>
