@@ -25,5 +25,11 @@ module.exports = {
     },
     roadMapAll(parameters) {
         return requestTis(url,parameters);
+    },
+    roadCrowd(parameters) {
+        return requestTis(url,parameters);
+    },
+    resolveItem(parameters) {
+        return requestTis(url,parameters)
     }
 };

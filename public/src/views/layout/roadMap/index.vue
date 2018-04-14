@@ -17,6 +17,20 @@
                 </div>
             </el-col>
         </el-row>
+        <div class="tag-wrapper">
+            <div class="red-tag-wrapper">
+                <span class="red-tag"></span>
+                <span class="red-text">十分拥堵</span>
+            </div>
+            <div class="yellow-tag-wrapper">
+                <span class="yellow-tag"></span>
+                <span class="yellow-text">拥堵</span>
+            </div>
+            <div class="green-tag-wrapper">
+                <span class="green-tag"></span>
+                <span class="green-text">通畅</span>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -32,14 +46,18 @@
         mounted () {
             this.initMap();
             this.addMapControl();
-            this.$store.dispatch('roadMapGeneral').then((resp) => {
-                if (resp.code=='0') {
-                    console.log('roadMap axios successfully');
-                    this.roadMapDataFormatter();
-                } else {
-                    console.log(resp.msg);
-                }
-            })
+            if(!this.getRoadMap) {
+                this.$store.dispatch('roadMapGeneral').then((resp) => {
+                    if (resp.code=='0') {
+                        console.log('roadMap axios successfully');
+                        this.roadMapDataFormatter();
+                    } else {
+                        console.log(resp.msg);
+                    }
+                })
+            }else {
+                this.roadMapDataFormatter();
+            }
         },
         components:{
             Col,Row,Table,Input,Button
@@ -127,6 +145,69 @@
     .map-container{
         width 100%;
         height 100%;
+        .tag-wrapper{
+            position absolute;
+            z-index 100;
+            top 12px;
+            right 400px;
+            height 15px;
+            width 360px;
+            font-size 0;
+            .green-tag-wrapper{
+                display inline-block;
+                height 15px;
+                width 120px;
+                .green-tag{
+                    display inline-block;
+                    width 15px;
+                    height 12px;
+                    margin-right  10px;
+                    background-color green;
+                }
+                .green-text{
+                    display inline-block;
+                    height 15px;
+                    line-height 15px;
+                    font-size 12px;
+                }
+            }
+            .yellow-tag-wrapper{
+                display inline-block;
+                height 15px;
+                width 120px;
+                .yellow-tag{
+                    display inline-block;
+                    width 15px;
+                    height 12px;
+                    background-color yellow;
+                    margin-right  10px;
+                }
+                .yellow-text{
+                    display inline-block;
+                    height 15px;
+                    line-height 15px;
+                    font-size 12px;
+                }
+            }
+            .red-tag-wrapper{
+                display inline-block;
+                height 15px;
+                width 120px;
+                .red-tag{
+                    display inline-block;
+                    width 15px;
+                    height 12px;
+                    background-color red;
+                    margin-right 10px;
+                }
+                .red-text{
+                    display inline-block;
+                    height 15px;
+                    line-height 15px;
+                    font-size 12px;
+                }
+            }
+        }
         .map-wrapper{
             min-height 750px;
             width 100%;

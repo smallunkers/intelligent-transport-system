@@ -23,3 +23,19 @@ export function roadMap(data) {
         url:'/api/main/roadMap/roadMapAll'
     })
 }
+
+export function roadCrowdTable (data) {
+    return axios({
+        data:data,
+        method: 'post',
+        url:'/api/main/roadResolve/roadCrowd'
+    })
+}
+
+export function roadResolve (data) {
+    return axios({
+        data:data,
+        method:'post',
+        url:'/api/main/roadResolve/resolveItem'
+    })
+}

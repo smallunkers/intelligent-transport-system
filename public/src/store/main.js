@@ -1,9 +1,11 @@
-import {roadInfo,roadEmergency,roadMap} from '../api/main';
+import {roadInfo,roadEmergency,roadMap,roadResolve,roadCrowdTable} from '../api/main';
 const main = {
     state:{
         roadInfo:null,
         roadEmergency:null,
-        roadMap:null
+        roadMap:null,
+        roadCrowd:null,
+        resolveItem:null
     },
     mutations:{
         SET_ROAD_INFO : (state,roadInfo) => {
@@ -14,6 +16,12 @@ const main = {
         },
         SET_ROAD_MAP: (state, roadMap) => {
             state.roadMap = roadMap;
+        },
+        SET_ROAD_CROWD: (state, roadCrowd) => {
+            state.roadCrowd = roadCrowd;
+        },
+        SET_RESOLVE_ITEM:(state, resolveItem) => {
+            state.resolveItem = resolveItem;
         }
     },
     actions:{
@@ -64,12 +72,43 @@ const main = {
                   reject(error);
               })
             })
+        },
+        roadResolveGeneral ({commit},data) {
+            return new Promise((resolve,reject) => {
+                roadResolve(data).then((resp)=> {
+                    console.log('roadResolve is --------');
+                    console.log(resp);
+                    if (resp.data.code == '0') {
+                        commit('SET_RESOLVE_ITEM',resp.data.data || {});
+                    } else {
+                        console.log('roadResolve error!');
+                    }
+                    resolve(resp.data);
+                }).catch((error)=> {
+                  reject(error);
+                })
+            })
+        },
+        roadCrowdGeneral ({commit},data) {
+            return new Promise((resolve, reject)=> {
+                roadCrowdTable(data).then((resp) => {
+                    console.log('roadCrowd is ---------');
+                    console.log(resp);
+                    if (resp.data.code=='0') {
+                        commit('SET_ROAD_CROWD',resp.data.data || {});
+                    }
+                }).catch((error)=>{
+                    reject(error);
+                })
+            })
         }
     },
     getters:{
         getRoadInfo: state => state.roadInfo,
         getRoadEmergency: state => state.roadEmergency,
-        getRoadMap: state => state.roadMap
+        getRoadMap: state => state.roadMap,
+        getRoadCrowd: state => state.roadCrowd,
+        getResolveItem: state => state.resolveItem
     }
 };
 export default main;

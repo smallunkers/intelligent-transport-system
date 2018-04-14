@@ -1475,15 +1475,7 @@
             "speedSection":"30"
           }
         ],
-        "roadRed":[
-          {
-            "startLgd":"120.111611",
-            "startLat":"30.279587",
-            "endLgd":"120.111881",
-            "endLat":"30.278261",
-            "speedSection":"16"
-          }
-        ],
+        "roadRed":[],
         "carFlow":"",
         "speed":""
       },
