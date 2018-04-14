@@ -12,7 +12,62 @@
                 </el-col>
                 <el-col :span="7">
                     <div class="road-detail-text">
-
+                        <el-row >
+                            <el-col :span="6" :offset="2">
+                                <span class="text-title" >地点:</span>
+                            </el-col>
+                            <el-col :span="15">
+                                <span  class="text-value">{{address}}</span>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="6" :offset="2">
+                                <span class="text-title">拥挤程度:</span>
+                            </el-col>
+                            <el-col :span="15">
+                                <span class="text-value">{{status}}</span>
+                            </el-col>
+                        </el-row>
+                        <el-row >
+                            <el-col :span="6" :offset="2">
+                                <span class="text-title">阈值:</span>
+                            </el-col>
+                            <el-col :span="15" >
+                                <span class="text-value">{{threshold}}</span>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="6" :offset="2">
+                                <span class="text-title">当前负载:</span>
+                            </el-col>
+                            <el-col :span="15">
+                                <span class="text-value">{{nowHold}}</span>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="6" :offset="2">
+                                <span  class="text-title">拥挤长度:</span>
+                            </el-col>
+                            <el-col :span="15">
+                                <span class="text-value">{{length}}</span>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="6" :offset="2">
+                                <span  class="text-title">当前车速:</span>
+                            </el-col>
+                            <el-col :span="15">
+                                <span class="text-value">{{speed}}</span>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="6" :offset="2">
+                                <span  class="text-title">主要原因:</span>
+                            </el-col>
+                            <el-col :span="15">
+                                <span class="text-value text-red">{{reason}}</span>
+                            </el-col>
+                        </el-row>
                     </div>
                 </el-col>
             </el-row>
@@ -31,7 +86,7 @@
                     <el-table-column label="当前负载" prop="nowHold" min-width="10%"></el-table-column>
                     <el-table-column label="操作" min-width="20%">
                         <template  slot-scope="scope">
-                            <el-button type="text" @click="mapDetail(scope.row.lgd,scope.row.lat)">详情</el-button>
+                            <el-button type="text" @click="mapDetail(scope.row.lgd,scope.row.lat,scope.row)">详情</el-button>
                             <el-button type="text">解决方案</el-button>
                         </template>
                     </el-table-column>
@@ -50,7 +105,13 @@
                crowdData:[],
                 map:null,
                 showDetail:false,
-                loadMapCount:0
+                loadMapCount:0,
+                length:'',
+                reason:'',
+                threshold:'',
+                status:'',
+                nowHold:'',
+                address:''
             }
         },
         created () {
@@ -98,7 +159,14 @@
             toggleDetail() {
                 this.showDetail = !this.showDetail;
             },
-            mapDetail (lgd,lat) {
+            mapDetail (lgd,lat,row) {
+                this.address = row.address;
+                this.length = row.length;
+                this.reason = row.reason;
+                this.threshold = row.threshold;
+                this.status = row.status;
+                this.nowHold = row.nowHold;
+                this.speed = row.speed;
                 this.toggleDetail();
                setTimeout(() => {
                     if (this.map) {
@@ -214,6 +282,26 @@
             .road-detail-map{
                 height 350px;
                 width 100%;
+            }
+            .road-detail-text{
+                .text-title{
+                    padding-top 10px;
+                    padding-bottom 10px;
+                    display inline-block;
+                    color #606266;
+                }
+                .text-value{
+                    padding-top 10px;
+                    padding-bottom 10px;
+                    display inline-block;
+                    color #606266;
+                    width 100%;
+                    text-align center;
+                }
+                .text-red {
+                    color red;
+                }
+
             }
         }
         .road-crowd-table-header{
