@@ -111,7 +111,8 @@
                 threshold:'',
                 status:'',
                 nowHold:'',
-                address:''
+                address:'',
+                speed:''
             }
         },
         created () {

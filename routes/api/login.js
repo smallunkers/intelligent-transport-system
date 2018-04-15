@@ -9,6 +9,9 @@ router.post('/handleLogin',function (req, res, next){
 
     }
     return service.handleLogin(parameters).then((resp) => {
+        if (resp.code=='0') {
+            req.session.user = resp.data.user;
+        }
         res.json(resp);
     })
 });
