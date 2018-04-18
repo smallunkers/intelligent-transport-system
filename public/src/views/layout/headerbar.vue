@@ -73,7 +73,7 @@
                     height 62px;
                     display inline-block;
                     color #606266;
-                    margin-right:150px;
+                    margin-right:50px;
                 }
                 .icon{
                     display inline-block;

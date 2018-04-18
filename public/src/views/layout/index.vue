@@ -1,20 +1,16 @@
 <template>
     <div class="app-wrapper">
-        <div class="app-header-wrapper">
-            <header-bar></header-bar>
+        <div class="app-sidebar-wrapper">
+            <side-bar></side-bar>
         </div>
-        <el-row class="app-main-wrapper" id="app-main" :style="style">
-            <el-col :span="3" :offset="0" class="all-height">
-                <div class="app-sidebar-wrapper">
-                    <side-bar></side-bar>
-                </div>
-            </el-col>
-            <el-col :span="21" class="background-color"  >
-                <div class="app-main-container" id="app-main">
-                    <app-main></app-main>
-                </div>
-            </el-col>
-        </el-row>
+        <div class="app-main-wrapper" id="app-main" :style="style">
+            <div class="app-header-wrapper">
+                <header-bar></header-bar>
+            </div>
+            <div class="app-main-container background-color">
+                <app-main></app-main>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -47,16 +43,24 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
     .app-wrapper{
+        @include clearfix;
         position relative;
-        width 100%;
         height 100%;
-        .app-header-wrapper{
-            height 62px;
-            line-height 62px;
-            width 100%;
+        width 100%;
+        .app-sidebar-wrapper{
+            transition width 0.28s;
+            width 180px!important;
+            height 100%;
+            position fixed;
+            top 0;
+            bottom 0;
+            left 0;
+            z-index 1001;
         }
         .app-main-wrapper{
             min-height 100%;
+            transition margin-left 0.28s;
+            margin-left 180px;
             .all-height{
                 height 100%;
                 padding 0;
@@ -65,11 +69,15 @@
             .background-color{
                 background-color #f0f2f5;
             }
-            .app-sidebar-wrapper{
-                height 100%;
+            .app-header-wrapper{
+                height 62px;
+                line-height 62px;
+                width 100%;
             }
             .app-main-container{
                 height 100%;
+                width 100%;
+                transition margin-left 0.28s;
             }
         }
     }

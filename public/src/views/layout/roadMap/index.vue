@@ -93,11 +93,10 @@
                 this.map.addControl(ctrl_sca);
             },
             handleSearch () {
-                alert('1');
-                let local = new BMap.LocalSearch("杭州市", {
+                let local = new BMap.LocalSearch(this.map, {
                     renderOptions:{map: this.map,autoViewport: true}
                 });
-                local.searchNearby(this.local);
+                local.search(this.local);
             },
             clearInput () {
                 this.local = '';
@@ -148,7 +147,7 @@
         .tag-wrapper{
             position absolute;
             z-index 100;
-            top 12px;
+            top 72px;
             right 400px;
             height 15px;
             width 360px;

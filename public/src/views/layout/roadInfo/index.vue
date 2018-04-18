@@ -1,6 +1,6 @@
 <template>
     <div class="road-info-wrapper">
-        <ul>
+        <ul class="road-info-ul">
             <el-row :gutter="20" class="road-info-list">
                 <el-col :span="6" v-for="(item,index) in items" :key="index">
                     <li class="road-info-item">
@@ -233,6 +233,10 @@
     @import '../../../assets/fonts/iconmoon/style1.css';
     .road-info-wrapper{
         width 100%;
+        .road-info-ul{
+            margin-top 0;
+            padding-top 20px;
+        }
         .road-info-list{
             width 100%;
             height 150px;

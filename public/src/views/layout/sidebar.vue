@@ -68,10 +68,11 @@
         height 100%;
         .side-bar{
             height 100%;
+            padding-top 15px;
             .clear-a-style{
                 text-decoration none;
                 color $blue;
-                font-size 10px;
+                font-size 14px;
                 display inline-block;
             }
         }

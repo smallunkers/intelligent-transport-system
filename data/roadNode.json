@@ -1,0 +1,30 @@
+{
+  "nodeAll":[
+    {
+      "coordinate":{
+        "transverse":"",
+        "vertical":""
+      },
+      "nextNorthCoordinate":{
+        "transverse":"",
+        "vertical":"",
+        "isCrowd":""
+      },
+      "nextSouthCoordinate":{
+        "transverse":"",
+        "vertical":"",
+        "isCrowd":""
+      },
+      "nextWestCoordinate":{
+        "transverse":"",
+        "vertical":"",
+        "isCrowd":""
+      },
+      "nextEastCoordinate":{
+        "transverse":"",
+        "vertical":"",
+        "isCrowd":""
+      }
+    }
+  ]
+}
