@@ -1,3 +1,5 @@
+import httpClient from './httpClient';
+
 module.exports= {
     requestTis (url,parameters) {
         return new httpClient.post(url,parameters).then(function(result){
