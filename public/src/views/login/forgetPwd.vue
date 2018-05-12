@@ -31,7 +31,7 @@
         data() {
             return {
                 showObj:{
-                    showForm: false,
+                    showForm: true,
                 },
                 userIdForm:{
                     userId:''
@@ -79,7 +79,7 @@
                 });
             },
             changePassword () {
-                this.$store.dispath('changePassword',this.changePassForm).then((resp)=>{
+                this.$store.dispatch('changePassword',this.changePassForm).then((resp)=>{
                     if(resp.code==0){
                         const title = '修改成功';
                         const content = '修改密码成功，即将跳转回登录页面';

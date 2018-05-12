@@ -1,5 +1,5 @@
-import httpClient from './httpClient';
-
+// import httpClient from './httpClient';
+let httpClient = require('./httpClient')
 module.exports= {
     requestTis (url,parameters) {
         return new httpClient.post(url,parameters).then(function(result){
