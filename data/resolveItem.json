@@ -2,6 +2,4487 @@
   "code":"0",
   "msg":"resolveItem axios successfully",
   "data":{
+      "YRoad":[
+        {
+          "name": "紫金港路",
+          "node": [
+            {
+              "coordinate": "0,0",
+              "nodeName": "紫金港路与余杭塘路",
+              "lgd":"120.090066",
+              "lat":"30.299296",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,0",
+                    "coordinateY":"0,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "0,1",
+                    "coordinateY":"2,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "0,1",
+              "nodeName": "紫金港路与文一路",
+              "lgd":"120.092025",
+              "lat":"30.292934",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,0",
+                    "coordinateY":"0,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,0",
+                    "coordinateY":"0,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "4,1",
+                    "coordinateY":"1,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "0,2",
+              "nodeName": "紫金港路与文二路",
+              "lgd":"120.093502",
+              "lat":"30.286595",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,0",
+                    "coordinateY":"0,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,0",
+                    "coordinateY":"0,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "6,1",
+                    "coordinateY":"1,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "0,3",
+              "nodeName": "紫金港路与文三路",
+              "lgd":"120.095885",
+              "lat":"30.280985",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,0",
+                    "coordinateY":"0,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,0",
+                    "coordinateY":"0,4",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "12,1",
+                    "coordinateY":"2,4",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "0,4",
+              "nodeName": "紫金港路与天目山路",
+              "lgd":"120.09804",
+              "lat":"30.268641",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,0",
+                    "coordinateY":"0,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "21,1",
+                    "coordinateY":"2,8",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "紫荆文路",
+          "node": [
+            {
+              "coordinate": "1,0",
+              "nodeName": "紫荆文路北起点",
+              "lgd":"120.096843",
+              "lat":"30.298584",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "1,1",
+                    "coordinateY":"1,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "1,1",
+              "nodeName": "紫荆文路与紫荆雅路",
+              "lgd":"120.096901",
+              "lat":"30.296992",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "",
+                    "coordinateY":"1,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "4,1",
+                    "coordinateY":"1,2",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "1,0",
+                    "coordinateY":"",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "1,2",
+                    "coordinateY":"2,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "1,2",
+              "nodeName": "紫荆文路与文一路",
+              "lgd":"120.097071",
+              "lat":"30.293026",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "1,1",
+                    "coordinateY":"1,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,1",
+                    "coordinateY":"1,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,0",
+                    "coordinateY":"0,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,2",
+                    "coordinateY":"2,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "1,3",
+              "lgd":"120.097663",
+              "lat":"30.286987",
+              "nodeName": "紫荆文路与文二路",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,1",
+                    "coordinateY":"1,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode":  {
+                    "coordinateX": "6,0",
+                    "coordinateY":"0,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,2",
+                    "coordinateY":"2,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "紫荆花路",
+          "node": [
+            {
+              "coordinate": "2,0",
+              "nodeName": "紫金花路与余杭塘路",
+              "lgd":"120.099129",
+              "lat":"30.30088",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "1,2",
+                    "coordinateY":"2,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,0",
+                    "coordinateY":"0,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,2",
+                    "coordinateY":"4,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,1",
+              "nodeName": "紫金花路与紫荆雅路",
+              "lgd":"120.099036",
+              "lat":"30.296805",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,1",
+                    "coordinateY":"2,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "4,2",
+                    "coordinateY":"2,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "1,1",
+                    "coordinateY":"1,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "1,3",
+                    "coordinateY":"4,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,2",
+              "nodeName": "紫金花路与文一路",
+              "lgd":"120.099012",
+              "lat":"30.292847",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "1,2",
+                    "coordinateY":"2,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,2",
+                    "coordinateY":"2,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,1",
+                    "coordinateY":"1,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,3",
+                    "coordinateY":"4,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,3",
+              "nodeName": "紫金花路与文二路",
+              "lgd":"120.099465",
+              "lat":"30.28721",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,2",
+                    "coordinateY":"2,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "12,1",
+                    "coordinateY":"2,4",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "6,1",
+                    "coordinateY":"1,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,3",
+                    "coordinateY":"3,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,4",
+              "nodeName": "紫金花路与文三路",
+              "lgd":"120.100959",
+              "lat":"30.281518",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,2",
+                    "coordinateY":"2,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "13,0",
+                    "coordinateY":"2,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "12,0",
+                    "coordinateY":"0,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,2",
+                    "coordinateY":"3,3",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,5",
+              "nodeName": "紫金花路与金月巷",
+              "lgd":"120.102376",
+              "lat":"30.2773",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,1",
+                    "coordinateY":"2,4",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "14,0",
+                    "coordinateY":"2,6",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  "",
+                  "rightNode": {
+                    "coordinateX": "13,1",
+                    "coordinateY":"4,7",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,6",
+              "nodeName": "紫金花路与莲花街",
+              "lgd":"120.102578",
+              "lat":"30.275901",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "13,0",
+                    "coordinateY":"2,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "18,0",
+                    "coordinateY":"2,7",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "14,1",
+                    "coordinateY":"4,8",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,7",
+              "nodeName": "紫金花路与莲花街",
+              "lgd":"120.102959",
+              "lat":"30.274525",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "14,0",
+                    "coordinateY":"2,6",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "21,1",
+                    "coordinateY":"2,8",
+                    "distance": "25",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "18,1",
+                    "coordinateY":"4,9",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "2,8",
+              "nodeName": "紫金花路与天目山路",
+              "lgd":"120.104215",
+              "lat":"30.270136",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "18,0",
+                    "coordinateY":"2,7",
+                    "distance": "25",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,0",
+                    "coordinateY":"0,4",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,2",
+                    "coordinateY":"4,11",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "西城路",
+          "node": [
+            {
+              "coordinate": "3,0",
+              "nodeName": "西城路与文二路",
+              "lgd":"120.102853",
+              "lat":"30.287438",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "7,0",
+                    "coordinateY":"3,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,2",
+                    "coordinateY":"2,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,4",
+                    "coordinateY":"4,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "3,1",
+              "nodeName": "西城路与金颐巷",
+              "lgd":"120.103697",
+              "lat":"30.284822",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,3",
+                    "coordinateY":"3,0",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "11,0",
+                    "coordinateY":"3,2",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "7,1",
+                    "coordinateY":"4,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "3,2",
+              "nodeName": "西城路与金丹巷",
+              "lgd":"120.10409",
+              "lat":"30.283472",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "7,0",
+                    "coordinateY":"3,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,2",
+                    "coordinateY":"3,3",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "11,1",
+                    "coordinateY":"4,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "3,3",
+              "nodeName": "西城路与文三路",
+              "lgd":"120.10458",
+              "lat":"30.281888",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "11,0",
+                    "coordinateY":"3,2",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "12,1",
+                    "coordinateY":"2,4",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,3",
+                    "coordinateY":"4,6",
+                    "distance": "50",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "古墩路",
+          "node": [
+            {
+              "coordinate": "4,0",
+              "nodeName": "古墩路与余杭塘路",
+              "lgd":"120.104551",
+              "lat":"30.301039",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "1,3",
+                    "coordinateY":"4,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,1",
+                    "coordinateY":"2,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,3",
+                    "coordinateY":"8,0",
+                    "distance": "200",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,1",
+              "nodeName": "古墩路与星艺街",
+              "lgd":"120.104435",
+              "lat":"30.296549",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,2",
+                    "coordinateY":"4,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "4,3",
+                    "coordinateY":"4,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "1,2",
+                    "coordinateY":"2,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "4,2",
+              "nodeName": "古墩路与文一路",
+              "lgd":"120.105039",
+              "lat":"30.292798",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "1,3",
+                    "coordinateY":"4,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,4",
+                    "coordinateY":"4,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,2",
+                    "coordinateY":"2,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,4",
+                    "coordinateY":"7,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,3",
+              "nodeName": "古墩路与文二路",
+              "lgd":"120.106164",
+              "lat":"30.287763",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,3",
+                    "coordinateY":"4,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "7,1",
+                    "coordinateY":"4,4",
+                    "distance": "30",
+                    "redDistance": "10",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,3",
+                    "coordinateY":"3,0",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,5",
+                    "coordinateY":"7,2",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,4",
+              "nodeName": "古墩路与金颐巷",
+              "lgd":"120.106676",
+              "lat":"30.2851",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,4",
+                    "coordinateY":"4,3",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "11,1",
+                    "coordinateY":"4,5",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                  "coordinateX": "7,0",
+                  "coordinateY":"3,1",
+                  "distance": "50",
+                  "redDistance": "0",
+                  "yellowDistance": "0"
+                },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "4,5",
+              "nodeName": "古墩路与金丹巷",
+              "lgd":"120.106981",
+              "lat":"30.283599",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "7,1",
+                    "coordinateY":"4,4",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,3",
+                    "coordinateY":"4,6",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "11,0",
+                    "coordinateY":"3,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "11,2",
+                    "coordinateY":"5,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,6",
+              "nodeName": "古墩路与文三路",
+              "lgd":"120.107237",
+              "lat":"30.282079",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "11,1",
+                    "coordinateY":"4,5",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "13,1",
+                    "coordinateY":"4,7",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,2",
+                    "coordinateY":"3,3",
+                    "distance": "50",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,4",
+                    "coordinateY":"5,1",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,7",
+              "nodeName": "古墩路与金月巷",
+              "lgd":"120.107736",
+              "lat":"30.279635",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,3",
+                    "coordinateY":"4,6",
+                    "distance": "25",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "14,1",
+                    "coordinateY":"4,8",
+                    "distance": "25",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "13,0",
+                    "coordinateY":"2,5",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "4,8",
+              "nodeName": "古墩路与莲花街",
+              "lgd":"120.108013",
+              "lat":"30.276966",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "13,1",
+                    "coordinateY":"4,7",
+                    "distance": "25",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "18,1",
+                    "coordinateY":"4,9",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "14,0",
+                    "coordinateY":"2,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode": {
+                    "coordinateX": "14,2",
+                    "coordinateY":"6,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,9",
+              "nodeName": "古墩路与古莲街",
+              "lgd":"120.108046",
+              "lat":"30.275565",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "14,1",
+                    "coordinateY":"4,8",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "19,0",
+                    "coordinateY":"4,10",
+                    "distance": "5",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "18,0",
+                    "coordinateY":"2,7",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "4,10",
+              "nodeName": "古墩路与未知名道路",
+              "lgd":"120.108082",
+              "lat":"30.275085",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "18,1",
+                    "coordinateY":"4,9",
+                    "distance": "5",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,2",
+                    "coordinateY":"4,11",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "19,1",
+                    "coordinateY":"6,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "4,11",
+              "nodeName": "古墩路与天目山路",
+              "lgd":"120.108414",
+              "lat":"30.271514",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "19,0",
+                    "coordinateY":"4,10",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,1",
+                    "coordinateY":"2,8",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,3",
+                    "coordinateY":"7,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
 
+          ]
+        },
+        {
+          "name": "金康路交叉南北向路段",
+          "node": [
+            {
+              "coordinate": "5,0",
+              "nodeName": "与金康路交叉点",
+              "lgd":"120.109762",
+              "lat":"30.283849",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "12,4",
+                    "coordinateY":"5,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "11,1",
+                    "coordinateY":"4,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "5,1",
+              "nodeName": "金康路与文三路交叉点",
+              "lgd":"120.109995",
+              "lat":"30.282219",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "11,2",
+                    "coordinateY":"5,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "12,3",
+                    "coordinateY":"4,6",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,5",
+                    "coordinateY":"7,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "与莲花街交叉南北无名街",
+          "node": [
+            {
+              "coordinate": "6,0",
+              "nodeName": "西城路与文二路",
+              "lgd":"120.111048",
+              "lat":"30.277489",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "20,0",
+                    "coordinateY":"6,1",
+                    "distance": "15",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "14,1",
+                    "coordinateY":"4,8",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode": {
+                    "coordinateX": "14,3",
+                    "coordinateY":"7,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "6,1",
+              "nodeName": "西城路与金颐巷",
+              "lgd":"120.111317",
+              "lat":"30.276506",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "14,2",
+                    "coordinateY":"6,0",
+                    "distance": "15",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "19,1",
+                    "coordinateY":"6,2",
+                    "distance": "15",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "20,1",
+                    "coordinateY":"7,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "6,2",
+              "nodeName": "西城路与金丹巷",
+              "lgd":"120.111443",
+              "lat":"30.27568",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "20,0",
+                    "coordinateY":"6,1",
+                    "distance": "15",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "19,0",
+                    "coordinateY":"4,10",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "竞舟路",
+          "node": [
+            {
+              "coordinate": "7,0",
+              "nodeName": "竞舟路起点",
+              "lgd":"120.108827",
+              "lat":"30.298398",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,4",
+                    "coordinateY":"7,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": "",
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "7,1",
+              "nodeName": "竞舟路与文一路",
+              "lgd":"120.109883",
+              "lat":"30.292919",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "",
+                    "coordinateY":"7,0",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,5",
+                    "coordinateY":"7,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,3",
+                    "coordinateY":"4,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,5",
+                    "coordinateY":"8,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "7,2",
+              "nodeName": "竞舟路与文二路",
+              "lgd":"120.111338",
+              "lat":"30.288009",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,4",
+                    "coordinateY":"7,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,5",
+                    "coordinateY":"7,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,4",
+                    "coordinateY":"4,3",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,6",
+                    "coordinateY":"8,5",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "7,3",
+              "nodeName": "竞舟路与文三路",
+              "lgd":"120.112206",
+              "lat":"30.282355",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,5",
+                    "coordinateY":"7,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "14,3",
+                    "coordinateY":"7,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "12,4",
+                    "coordinateY":"5,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,6",
+                    "coordinateY":"8,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "7,4",
+              "nodeName": "竞舟路与莲花街",
+              "lgd":"120.11203",
+              "lat":"30.277723",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,5",
+                    "coordinateY":"7,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "20,1",
+                    "coordinateY":"7,5",
+                    "distance": "15",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "14,2",
+                    "coordinateY":"6,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "7,5",
+              "nodeName": "竞舟路与东西向无名路",
+              "lgd":"120.112336",
+              "lat":"30.276698",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "14,3",
+                    "coordinateY":"7,4",
+                    "distance": "15",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "21,3",
+                    "coordinateY":"7,6",
+                    "distance": "35",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "20,0",
+                    "coordinateY":"6,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "7,6",
+              "nodeName": "竞舟路与天目山路",
+              "lgd":"120.113135",
+              "lat":"30.273945",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "20,1",
+                    "coordinateY":"7,5",
+                    "distance": "35",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,2",
+                    "coordinateY":"4,11",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,4",
+                    "coordinateY":"8,7",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "丰潭路",
+          "node": [
+            {
+              "coordinate": "8,0",
+              "nodeName": "丰潭路与余杭塘路",
+              "lgd":"120.113056",
+              "lat":"30.299726",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "2,0",
+                    "coordinateY":"8,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,2",
+                    "coordinateY":"4,0",
+                    "distance": "200",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,4",
+                    "coordinateY":"12,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,1",
+              "nodeName": "丰潭路与文一路",
+              "lgd":"120.113481",
+              "lat":"30.297121",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,3",
+                    "coordinateY":"8,0",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "3,0",
+                    "coordinateY":"8,2",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "2,1",
+                    "coordinateY":"9,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,2",
+              "nodeName": "丰潭路与西斗门路",
+              "lgd":"120.113549",
+              "lat":"30.296106",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "2,0",
+                    "coordinateY":"8,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "4,5",
+                    "coordinateY":"8,3",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "3,1",
+                    "coordinateY":"9,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,3",
+              "nodeName": "丰潭路与文一路",
+              "lgd":"120.114335",
+              "lat":"30.293021",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "3,0",
+                    "coordinateY":"8,2",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "5,0",
+                    "coordinateY":"8,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "4,4",
+                    "coordinateY":"7,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,6",
+                    "coordinateY":"10,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,4",
+              "nodeName": "丰潭路与高技街",
+              "lgd":"120.115004",
+              "lat":"30.290393",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,5",
+                    "coordinateY":"8,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "6,6",
+                    "coordinateY":"8,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  "",
+                  "rightNode": {
+                    "coordinateX": "5,1",
+                    "coordinateY":"10,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,5",
+              "nodeName": "丰潭路与文二路",
+              "lgd":"120.115576",
+              "lat":"30.288266",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "5,0",
+                    "coordinateY":"8,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "12,6",
+                    "coordinateY":"8,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,5",
+                    "coordinateY":"7,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "6,7",
+                    "coordinateY":"10,3",
+                    "distance": "50",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,6",
+              "nodeName": "丰潭路与文三路",
+              "lgd":"120.117348",
+              "lat":"30.282538",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,6",
+                    "coordinateY":"8,5",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,4",
+                    "coordinateY":"8,7",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,5",
+                    "coordinateY":"7,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,7",
+                    "coordinateY":"10,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "8,7",
+              "nodeName": "丰潭路与天目山路",
+              "lgd":"120.118952",
+              "lat":"30.277017",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,6",
+                    "coordinateY":"8,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,3",
+                    "coordinateY":"7,6",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,5",
+                    "coordinateY":"10,6",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "物华路",
+          "node": [
+            {
+              "coordinate": "9,0",
+              "nodeName": "物华路转折点",
+              "lgd":"120.118829",
+              "lat":"30.297472",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "3,1",
+                    "coordinateY":"9,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "2,0",
+                    "coordinateY":"8,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "9,1",
+              "nodeName": "物华路与西斗门路",
+              "lgd":"120.119058",
+              "lat":"30.296393",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "2,1",
+                    "coordinateY":"9,0",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "3,0",
+                    "coordinateY":"8,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "3,2",
+                    "coordinateY":"10,0",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "益乐路",
+          "node": [
+            {
+              "coordinate": "10,0",
+              "nodeName": "益乐路与西斗门路",
+              "lgd":"120.119946",
+              "lat":"30.296455",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,6",
+                    "coordinateY":"10,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "3,1",
+                    "coordinateY":"9,1",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "3,3",
+                    "coordinateY":"11,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "10,1",
+              "nodeName": "益乐路与文一路",
+              "lgd":"120.120205",
+              "lat":"30.293605",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "3,2",
+                    "coordinateY":"10,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "5,1",
+                    "coordinateY":"10,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,5",
+                    "coordinateY":"8,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,7",
+                    "coordinateY":"11,2",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "10,2",
+              "nodeName": "益乐路与高技街",
+              "lgd":"120.120407",
+              "lat":"30.290981",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,6",
+                    "coordinateY":"10,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,7",
+                    "coordinateY":"10,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "5,0",
+                    "coordinateY":"8,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "5,2",
+                    "coordinateY":"11,3",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "10,3",
+              "nodeName": "益乐路与文二路",
+              "lgd":"120.120517",
+              "lat":"30.288488",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "5,1",
+                    "coordinateY":"10,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "10,0",
+                    "coordinateY":"10,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "6,6",
+                    "coordinateY":"8,5",
+                    "distance": "50",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,8",
+                    "coordinateY":"12,3",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "10,4",
+              "nodeName": "益乐路与华星路",
+              "lgd":"120.120802",
+              "lat":"30.285261",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,7",
+                    "coordinateY":"10,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "12,7",
+                    "coordinateY":"10,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "10,1",
+                    "coordinateY":"12,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "10,5",
+              "nodeName": "益乐路与文三路",
+              "lgd":"120.122186",
+              "lat":"30.282683",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "10,0",
+                    "coordinateY":"10,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "21,5",
+                    "coordinateY":"10,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,6",
+                    "coordinateY":"8,6",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode":{
+                    "coordinateX": "12,8",
+                    "coordinateY":"12,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "10,6",
+              "nodeName": "益乐路与天目山路",
+              "lgd":"120.12359",
+              "lat":"30.278486",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,7",
+                    "coordinateY":"10,5",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,4",
+                    "coordinateY":"8,7",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,6",
+                    "coordinateY":"12,8",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "通普路",
+          "node": [
+            {
+              "coordinate": "11,0",
+              "nodeName": "通普路起点",
+              "lgd":"120.121669",
+              "lat":"30.298372",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "3,3",
+                    "coordinateY":"11,1",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "11,1",
+              "nodeName": "通普路与西斗门路",
+              "lgd":"120.121884",
+              "lat":"30.296502",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "",
+                    "coordinateY":"11,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "4,7",
+                    "coordinateY":"11,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "3,2",
+                    "coordinateY":"10,0",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "11,2",
+              "nodeName": "通普路与文一路",
+              "lgd":"120.122068",
+              "lat":"30.29361",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "3,3",
+                    "coordinateY":"11,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "5,2",
+                    "coordinateY":"11,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,6",
+                    "coordinateY":"10,1",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,8",
+                    "coordinateY":"12,1",
+                    "distance": "10",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "11,3",
+              "nodeName": "通普路与高技街",
+              "lgd":"120.122288",
+              "lat":"30.291045",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,7",
+                    "coordinateY":"11,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "5,1",
+                    "coordinateY":"10,2",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "5,3",
+                    "coordinateY":"12,2",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "古翠路",
+          "node": [
+            {
+              "coordinate": "12,0",
+              "nodeName": "古翠路与余杭塘路",
+              "lgd":"120.124959",
+              "lat":"30.300367",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,8",
+                    "coordinateY":"12,1",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,3",
+                    "coordinateY":"8,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,5",
+                    "coordinateY":"16,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,1",
+              "nodeName": "古翠路与文一路",
+              "lgd":"120.125451",
+              "lat":"30.29365",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,4",
+                    "coordinateY":"12,0",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "5,3",
+                    "coordinateY":"12,2",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,7",
+                    "coordinateY":"11,2",
+                    "distance": "10",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,9",
+                    "coordinateY":"14,0",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,2",
+              "nodeName": "古翠路与高技街",
+              "lgd":"120.125632",
+              "lat":"30.291266",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,8",
+                    "coordinateY":"12,1",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,8",
+                    "coordinateY":"12,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "5,2",
+                    "coordinateY":"11,3",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "5,4",
+                    "coordinateY":"14,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,3",
+              "nodeName": "古翠路文二路",
+              "lgd":"120.125797",
+              "lat":"30.288699",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "5,3",
+                    "coordinateY":"12,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "8,0",
+                    "coordinateY":"12,4",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "6,7",
+                    "coordinateY":"10,3",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,9",
+                    "coordinateY":"13,0",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,4",
+              "nodeName": "古翠路与金石街",
+              "lgd":"120.126064",
+              "lat":"30.286724",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,8",
+                    "coordinateY":"12,3",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "10,1",
+                    "coordinateY":"12,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "8,1",
+                    "coordinateY":"13,1",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,5",
+              "nodeName": "古翠路与华星路",
+              "lgd":"120.126039",
+              "lat":"30.285346",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "8,0",
+                    "coordinateY":"12,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "12,8",
+                    "coordinateY":"12,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "10,0",
+                    "coordinateY":"10,4",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "10,2",
+                    "coordinateY":"13,2",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,6",
+              "nodeName": "古翠路文三路",
+              "lgd":"120.126244",
+              "lat":"30.282747",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "10,1",
+                    "coordinateY":"12,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "15,0",
+                    "coordinateY":"12,7",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,7",
+                    "coordinateY":"10,5",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,9",
+                    "coordinateY":"14,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "25"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,7",
+              "nodeName": "古翠路与塘苗路",
+              "lgd":"120.126391",
+              "lat":"30.280648",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,8",
+                    "coordinateY":"12,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,6",
+                    "coordinateY":"12,8",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode": {
+                    "coordinateX": "15,1",
+                    "coordinateY":"14,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "12,8",
+              "nodeName": "古翠路与天目山路",
+              "lgd":"120.126533",
+              "lat":"30.278542",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "15,0",
+                    "coordinateY":"12,7",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,6",
+                    "coordinateY":"12,8",
+                    "distance": "40",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,7",
+                    "coordinateY":"14,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "华星支路",
+          "node": [
+            {
+              "coordinate": "13,0",
+              "nodeName": "华星支路与文二路",
+              "lgd":"120.128763",
+              "lat":"30.288773",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "8,1",
+                    "coordinateY":"13,1",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,8",
+                    "coordinateY":"12,3",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,10",
+                    "coordinateY":"14,2",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "13,1",
+              "nodeName": "华星支路与金石街",
+              "lgd":"120.128633",
+              "lat":"30.286855",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,9",
+                    "coordinateY":"13,0",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "10,2",
+                    "coordinateY":"13,2",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "8,0",
+                    "coordinateY":"12,4",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "13,2",
+              "nodeName": "华星支路与华星路",
+              "lgd":"120.128684",
+              "lat":"30.285464",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "8,1",
+                    "coordinateY":"13,1",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "10,1",
+                    "coordinateY":"12,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "10,3",
+                    "coordinateY":"14,3",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "万塘路",
+          "node": [
+            {
+              "coordinate": "14,0",
+              "nodeName": "万塘路与文一路",
+              "lgd":"120.130344",
+              "lat":"30.294068",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "5,4",
+                    "coordinateY":"14,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,8",
+                    "coordinateY":"12,1",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,10",
+                    "coordinateY":"16,1",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "14,1",
+              "nodeName": "万塘路与高技街",
+              "lgd":"120.130152",
+              "lat":"30.291477",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,9",
+                    "coordinateY":"14,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,10",
+                    "coordinateY":"14,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "5,3",
+                    "coordinateY":"12,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "14,2",
+              "nodeName": "万塘路与文二路",
+              "lgd":"120.130211",
+              "lat":"30.288827",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "5,4",
+                    "coordinateY":"14,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "10,3",
+                    "coordinateY":"14,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,9",
+                    "coordinateY":"13,0",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,11",
+                    "coordinateY":"16,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "14,3",
+              "nodeName": "万塘路与华星路",
+              "lgd":"120.130385",
+              "lat":"30.285463",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,10",
+                    "coordinateY":"14,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "12,9",
+                    "coordinateY":"14,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "10,2",
+                    "coordinateY":"13,2",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "10,4",
+                    "coordinateY":"16,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "14,4",
+              "nodeName": "万塘路与文三路",
+              "lgd":"120.13071",
+              "lat":"30.28292",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "10,3",
+                    "coordinateY":"14,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "10,1",
+                    "coordinateY":"12,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,8",
+                    "coordinateY":"12,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "25"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,10",
+                    "coordinateY":"16,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "14,5",
+              "nodeName": "万塘路与塘苗路",
+              "lgd":"120.130931",
+              "lat":"30.28072",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,9",
+                    "coordinateY":"14,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "21,7",
+                    "coordinateY":"14,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "15,0",
+                    "coordinateY":"12,7",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "15,2",
+                    "coordinateY":"15,0",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "14,6",
+              "nodeName": "万塘路与天目山路",
+              "lgd":"120.130741",
+              "lat":"30.278507",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "15,1",
+                    "coordinateY":"14,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,6",
+                    "coordinateY":"12,8",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,8",
+                    "coordinateY":"15,1",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "曲荷巷",
+          "node": [
+            {
+              "coordinate": "15,0",
+              "nodeName": "曲荷巷与塘苗路",
+              "lgd":"120.133955",
+              "lat":"30.280437",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "21,8",
+                    "coordinateY":"15,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "15,1",
+                    "coordinateY":"14,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "15,3",
+                    "coordinateY":"16,5",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "15,1",
+              "nodeName": "华星支路与天目山路",
+              "lgd":"120.133734",
+              "lat":"30.278341",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "15,2",
+                    "coordinateY":"15,0",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,7",
+                    "coordinateY":"14,6",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode":{
+                    "coordinateX": "21,9",
+                    "coordinateY":"16,6",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "学院路",
+          "node": [
+            {
+              "coordinate": "16,0",
+              "nodeName": "学院路与余杭塘路",
+              "lgd":"120.135052",
+              "lat":"30.300769",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,10",
+                    "coordinateY":"16,1",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,4",
+                    "coordinateY":"12,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,6",
+                    "coordinateY":"18,0",
+                    "distance": "100",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "16,1",
+              "nodeName": "学院路与文一路",
+              "lgd":"120.135412",
+              "lat":"30.294376",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,5",
+                    "coordinateY":"16,0",
+                    "distance": "100",
+                    "redDistance": "100",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,11",
+                    "coordinateY":"16,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,9",
+                    "coordinateY":"14,0",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "4,11",
+                    "coordinateY":"18,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "16,2",
+              "nodeName": "学院路与文二路",
+              "lgd":"120.135825",
+              "lat":"30.289013",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,10",
+                    "coordinateY":"16,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "10,4",
+                    "coordinateY":"16,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,10",
+                    "coordinateY":"14,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,12",
+                    "coordinateY":"18,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "16,3",
+              "nodeName": "学院路与华星路",
+              "lgd":"120.136085",
+              "lat":"30.285995",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,11",
+                    "coordinateY":"16,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "12,10",
+                    "coordinateY":"14,4",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":  {
+                    "coordinateX": "10,3",
+                    "coordinateY":"14,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "16,4",
+              "nodeName": "学院路与文三路",
+              "lgd":"120.13633",
+              "lat":"30.283179",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "10,4",
+                    "coordinateY":"16,3",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "15,3",
+                    "coordinateY":"16,5",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,9",
+                    "coordinateY":"14,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,11",
+                    "coordinateY":"17,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "16,5",
+              "nodeName": "学院路与塘苗路",
+              "lgd":"120.136606",
+              "lat":"30.280756",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,10",
+                    "coordinateY":"16,4",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode":  {
+                    "coordinateX": "21,9",
+                    "coordinateY":"16,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "15,2",
+                    "coordinateY":"15,0",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "15,4",
+                    "coordinateY":"17,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "16,6",
+              "nodeName": "学院路与天目山路",
+              "lgd":"120.136737",
+              "lat":"30.277941",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "15,3",
+                    "coordinateY":"16,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,8",
+                    "coordinateY":"15,1",
+                    "distance": "25",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode": {
+                    "coordinateX": "21,10",
+                    "coordinateY":"17,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "黄姑山路",
+          "node": [
+            {
+              "coordinate": "17,0",
+              "nodeName": "黄姑山路与文三路",
+              "lgd":"120.139952",
+              "lat":"30.28331",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "15,4",
+                    "coordinateY":"17,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,10",
+                    "coordinateY":"16,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "12,12",
+                    "coordinateY":"18,3",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "17,1",
+              "nodeName": "黄姑山路与黄姑山横路",
+              "lgd":"120.140092",
+              "lat":"30.280893",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,11",
+                    "coordinateY":"17,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,10",
+                    "coordinateY":"17,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "15,3",
+                    "coordinateY":"16,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "15,5",
+                    "coordinateY":"18,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "17,2",
+              "nodeName": "黄姑山路与天目山路",
+              "lgd":"120.140213",
+              "lat":"30.277637",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "15,4",
+                    "coordinateY":"17,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,9",
+                    "coordinateY":"16,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "50"
+                  },
+                  "rightNode":{
+                    "coordinateX": "21,11",
+                    "coordinateY":"18,5",
+                    "distance": "50",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "教工路",
+          "node": [
+            {
+              "coordinate": "18,0",
+              "nodeName": "教工路与余杭塘路",
+              "lgd":"120.14107",
+              "lat":"30.299505",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,11",
+                    "coordinateY":"18,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,5",
+                    "coordinateY":"16,0",
+                    "distance": "100",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,7",
+                    "coordinateY":"19,0|22,0",
+                    "distance": "100",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "18,1",
+              "nodeName": "教工路与文一路",
+              "lgd":"120.141503",
+              "lat":"30.29467",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,6",
+                    "coordinateY":"18,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,12",
+                    "coordinateY":"18,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,10",
+                    "coordinateY":"16,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "4,12",
+                    "coordinateY":"19,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "18,2",
+              "nodeName": "教工路与文二路",
+              "lgd":"120.141974",
+              "lat":"30.289291",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,11",
+                    "coordinateY":"18,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,12",
+                    "coordinateY":"18,3",
+                    "distance": "100",
+                    "redDistance": "200",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,11",
+                    "coordinateY":"16,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "6,13",
+                    "coordinateY":"19,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "18,3",
+              "nodeName": "教工路与文三路",
+              "lgd":"120.142673",
+              "lat":"30.283426",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,12",
+                    "coordinateY":"18,2",
+                    "distance": "100",
+                    "redDistance": "200",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "15,5",
+                    "coordinateY":"18,4",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,11",
+                    "coordinateY":"17,0",
+                    "distance": "50",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "12,13",
+                    "coordinateY":"19,3",
+                    "distance": "100",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "18,4",
+              "nodeName": "教工路与黄姑山横路",
+              "lgd":"120.142718",
+              "lat":"30.280963",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,12",
+                    "coordinateY":"18,3",
+                    "distance": "50",
+                    "redDistance": "50",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,11",
+                    "coordinateY":"18,5",
+                    "distance": "50",
+                    "redDistance": "300",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "15,4",
+                    "coordinateY":"17,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "18,5",
+              "nodeName": "教工路与天目山路",
+              "lgd":"120.142939",
+              "lat":"30.277396",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "15,5",
+                    "coordinateY":"18,4",
+                    "distance": "50",
+                    "redDistance": "300",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,10",
+                    "coordinateY":"17,2",
+                    "distance": "50",
+                    "redDistance": "250",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "21,12",
+                    "coordinateY":"19,4",
+                    "distance": "100",
+                    "redDistance": "250",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "保椒北路",
+          "node": [
+            {
+              "coordinate": "19,0|22,0",
+              "nodeName": "教工路与余杭塘路",
+              "lgd":"120.147175",
+              "lat":"30.301173",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,12|4,13",
+                    "coordinateY":"19,1|22,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,6",
+                    "coordinateY":"18,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,8",
+                    "coordinateY":"23,0",
+                    "distance": "100",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "19,1",
+              "nodeName": "保椒北路与文一路",
+              "lgd":"120.148217",
+              "lat":"30.294859",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,7",
+                    "coordinateY":"19,0|22,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,13",
+                    "coordinateY":"19,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,11",
+                    "coordinateY":"18,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "4,13",
+                    "coordinateY":"22,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "19,2",
+              "nodeName": "保椒北路与文二路",
+              "lgd":"120.147912",
+              "lat":"30.289558",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,12",
+                    "coordinateY":"19,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,13",
+                    "coordinateY":"19,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "200"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,12",
+                    "coordinateY":"18,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "6,14",
+                    "coordinateY":"20,0",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "19,3",
+              "nodeName": "保椒北路与文三路",
+              "lgd":"120.147795",
+              "lat":"30.283718",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,13",
+                    "coordinateY":"19,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "200"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,12",
+                    "coordinateY":"19,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,12",
+                    "coordinateY":"18,3",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "12,14",
+                    "coordinateY":"20,1",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "19,4",
+              "nodeName": "保椒北路与天目山路",
+              "lgd":"120.152268",
+              "lat":"30.278042",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,13",
+                    "coordinateY":"19,3",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,11",
+                    "coordinateY":"18,5",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "21,13",
+                    "coordinateY":"21,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "求智巷",
+          "node": [
+            {
+              "coordinate": "20,0",
+              "nodeName": "求智巷与文二路",
+              "lgd":"120.15005",
+              "lat":"30.289624",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "12,14",
+                    "coordinateY":"20,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,13",
+                    "coordinateY":"19,2",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,15",
+                    "coordinateY":"21,0",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "20,1",
+              "nodeName": "求智巷与文三路",
+              "lgd":"120.150104",
+              "lat":"30.2838",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,14",
+                    "coordinateY":"20,0",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "12,13",
+                    "coordinateY":"19,3",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "12,15",
+                    "coordinateY":"21,1",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "马塍路",
+          "node": [
+            {
+              "coordinate": "21,0",
+              "nodeName": "马塍路与文二路",
+              "lgd":"120.153195",
+              "lat":"30.289746",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "12,15",
+                    "coordinateY":"21,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,14",
+                    "coordinateY":"20,0",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "6,16",
+                    "coordinateY":"22,2",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "21,1",
+              "nodeName": "马塍路与文三路",
+              "lgd":"120.153857",
+              "lat":"30.283894",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,15",
+                    "coordinateY":"21,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "16,0",
+                    "coordinateY":"21,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,14",
+                    "coordinateY":"20,1",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "12,16",
+                    "coordinateY":"22,4",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "21,2",
+              "nodeName": "马塍路与武林巷",
+              "lgd":"120.155396",
+              "lat":"30.281553",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,15",
+                    "coordinateY":"21,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,13",
+                    "coordinateY":"21,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode":{
+                    "coordinateX": "16,1",
+                    "coordinateY":"22,6",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "21,3",
+              "nodeName": "马塍路与天目山路",
+              "lgd":"120.157305",
+              "lat":"30.278341",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "16,0",
+                    "coordinateY":"21,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode": {
+                    "coordinateX": "21,12",
+                    "coordinateY":"19,4",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "21,14",
+                    "coordinateY":"22,7",
+                    "distance": "20",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "莫干山路",
+          "node": [
+            {
+              "coordinate": "19,0|22,0",
+              "nodeName": "莫干山路与余杭塘路",
+              "lgd":"120.14695",
+              "lat":"30.301203",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,12|4,13",
+                    "coordinateY":"19,1|22,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,6",
+                    "coordinateY":"18,0",
+                    "distance": "100",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": {
+                    "coordinateX": "0,8",
+                    "coordinateY":"23,0",
+                    "distance": "100",
+                    "redDistance": "25",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "22,1",
+              "nodeName": "莫干山路与文一路",
+              "lgd":"120.151515",
+              "lat":"30.29517",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,7",
+                    "coordinateY":"19,0|22,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,16",
+                    "coordinateY":"22,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,12",
+                    "coordinateY":"19,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "4,14",
+                    "coordinateY":"23,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "22,2",
+              "nodeName": "莫干山路与文二路",
+              "lgd":"120.151515",
+              "lat":"30.29517",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,13",
+                    "coordinateY":"22,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "9,0",
+                    "coordinateY":"22,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,15",
+                    "coordinateY":"21,0",
+                    "distance": "30",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "6,17",
+                    "coordinateY":"23,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "22,3",
+              "nodeName": "莫干山路与沈塘桥",
+              "lgd":"120.156358",
+              "lat":"30.28692",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,16",
+                    "coordinateY":"22,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,16",
+                    "coordinateY":"22,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode":{
+                    "coordinateX": "9,1",
+                    "coordinateY":"23,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "22,4",
+              "nodeName": "莫干山路与文三路",
+              "lgd":"120.157715",
+              "lat":"30.284055",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "9,0",
+                    "coordinateY":"22,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "17,0",
+                    "coordinateY":"22,5",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "100"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,15",
+                    "coordinateY":"21,1",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "12,17",
+                    "coordinateY":"23,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "22,5",
+              "nodeName": "莫干山路与密渡桥路",
+              "lgd":"120.160845",
+              "lat":"30.280484",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,16",
+                    "coordinateY":"22,4",
+                    "distance": "50",
+                    "redDistance": "100",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "16,1",
+                    "coordinateY":"22,6",
+                    "distance": "20",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": "",
+                  "rightNode":{
+                    "coordinateX": "17,1",
+                    "coordinateY":"23,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "coordinate": "22,6",
+              "nodeName": "莫干山路与武林巷",
+              "lgd":"120.159179",
+              "lat":"30.282699",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "17,0",
+                    "coordinateY":"22,5",
+                    "distance": "20",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,14",
+                    "coordinateY":"22,7",
+                    "distance": "30",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode":{
+                    "coordinateX": "16,0",
+                    "coordinateY":"21,2",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "22,7",
+              "nodeName": "莫干山路与天目山路",
+              "lgd":"120.161122",
+              "lat":"30.278716",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "16,1",
+                    "coordinateY":"22,6",
+                    "distance": "30",
+                    "redDistance": "200",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode":{
+                    "coordinateX": "21,13",
+                    "coordinateY":"21,3",
+                    "distance": "10",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":{
+                    "coordinateX": "21,15",
+                    "coordinateY":"23,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "湖墅南路",
+          "node": [
+            {
+              "coordinate": "23,0",
+              "nodeName": "湖墅南路与余杭塘路",
+              "lgd":"120.151675",
+              "lat":"30.303181",
+              "connectNode": [
+                {
+                  "topNode":"",
+                  "bottomNode": {
+                    "coordinateX": "4,14",
+                    "coordinateY":"23,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "0,7",
+                    "coordinateY":"19,0|22,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode": ""
+                }
+              ]
+            },
+            {
+              "coordinate": "23,1",
+              "nodeName": "湖墅南路与文一路",
+              "lgd":"120.155328",
+              "lat":"30.296541",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "0,8",
+                    "coordinateY":"23,0",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "6,17",
+                    "coordinateY":"23,2",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "4,13",
+                    "coordinateY":"22,1",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "23,2",
+              "nodeName": "湖墅南路与文二路",
+              "lgd":"120.158264",
+              "lat":"30.291066",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "4,14",
+                    "coordinateY":"23,1",
+                    "distance": "100",
+                    "redDistance": "0",
+                    "yellowDistance": "100"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "9,1",
+                    "coordinateY":"23,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "6,16",
+                    "coordinateY":"22,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "23,3",
+              "nodeName": "湖墅南路与沈塘桥",
+              "lgd":"120.159778",
+              "lat":"30.287991",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "6,17",
+                    "coordinateY":"23,2",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "12,17",
+                    "coordinateY":"23,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "9,0",
+                    "coordinateY":"22,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "23,4",
+              "nodeName": "莫干山路与文三路",
+              "lgd":"120.161329",
+              "lat":"30.284699",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "9,1",
+                    "coordinateY":"23,3",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "17,1",
+                    "coordinateY":"23,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "12,16",
+                    "coordinateY":"22,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "23,5",
+              "nodeName": "莫干山路与密渡桥路",
+              "lgd":"120.162754",
+              "lat":"30.280944",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "12,17",
+                    "coordinateY":"23,4",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": {
+                    "coordinateX": "21,15",
+                    "coordinateY":"23,6",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "leftNode": {
+                    "coordinateX": "17,0",
+                    "coordinateY":"22,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            },
+            {
+              "coordinate": "23,6",
+              "nodeName": "湖墅南路与天目山路",
+              "lgd":"120.163618",
+              "lat":"30.278724",
+              "connectNode": [
+                {
+                  "topNode":{
+                    "coordinateX": "17,1",
+                    "coordinateY":"23,5",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "bottomNode": "",
+                  "leftNode":{
+                    "coordinateX": "21,14",
+                    "coordinateY":"22,7",
+                    "distance": "50",
+                    "redDistance": "0",
+                    "yellowDistance": "0"
+                  },
+                  "rightNode":""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "XRoad":[]
   }
 }

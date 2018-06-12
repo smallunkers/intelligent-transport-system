@@ -13,7 +13,11 @@
         "reason":"第七人民医院附近本身交通压力较大",
         "threshold":"800",
         "nowHold":"1000",
-        "speed":"12km/h"
+        "speed":"12km/h",
+        "start":"7,6",
+        "end":"14,6",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"1",
@@ -25,7 +29,11 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"920",
-        "speed":"13km/h"
+        "speed":"13km/h",
+        "start":"7,6",
+        "end":"14,6",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"2",
@@ -37,7 +45,11 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"910",
-        "speed":"20km/h"
+        "speed":"20km/h",
+        "start":"14,6",
+        "end":"17,2",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"3",
@@ -49,7 +61,11 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"1000",
-        "speed":"12km/h"
+        "speed":"12km/h",
+        "start":"17,2",
+        "end":"19,4",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"4",
@@ -61,7 +77,11 @@
         "reason":"该路段发生交通事故",
         "threshold":"600",
         "nowHold":"780",
-        "speed":"12km/h"
+        "speed":"12km/h",
+        "start":"2,7",
+        "end":"2,8",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"5",
@@ -73,7 +93,11 @@
         "reason":"正值下班高峰期",
         "threshold":"500",
         "nowHold":"560",
-        "speed":"19km/h"
+        "speed":"19km/h",
+        "start":"2,6",
+        "end":"4,8",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"6",
@@ -85,7 +109,11 @@
         "reason":"正值下班高峰期",
         "threshold":"500",
         "nowHold":"540",
-        "speed":"19km/h"
+        "speed":"19km/h",
+        "start":"4,8",
+        "end":"7,4",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"7",
@@ -97,7 +125,11 @@
         "reason":"正值下班高峰期",
         "threshold":"600",
         "nowHold":"670",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"4,6",
+        "end":"4,8",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"8",
@@ -109,7 +141,11 @@
         "reason":"正值下班高峰期",
         "threshold":"600",
         "nowHold":"790",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"4,6",
+        "end":"4,8",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"9",
@@ -121,7 +157,11 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"10km/h"
+        "speed":"10km/h",
+        "start":"2,4",
+        "end":"5,1",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"10",
@@ -133,7 +173,11 @@
         "reason":"附近为软件公司聚集区，下班交通压力过大",
         "threshold":"700",
         "nowHold":"790",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"7,3",
+        "end":"14,4",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
         "id":"11",
@@ -145,7 +189,11 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"780",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"12,5",
+        "end":"12,7",
+        "direction":"bottom",
+        "crowdType":"1"
       },
       {
         "id":"12",
@@ -157,7 +205,11 @@
         "reason":"道路维修",
         "threshold":"700",
         "nowHold":"890",
-        "speed":"9km/h"
+        "speed":"9km/h",
+        "start":"16,3",
+        "end":"16,5",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"13",
@@ -169,7 +221,11 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"17,0",
+        "end":"19,3",
+        "direction":"right",
+        "crowdType":"1"
       },
       {
         "id":"14",
@@ -181,7 +237,11 @@
         "reason":"道路维修，正值下班高峰期",
         "threshold":"700",
         "nowHold":"1000",
-        "speed":"7km/h"
+        "speed":"7km/h",
+        "start":"18,2",
+        "end":"18,5",
+        "direction":"bottom",
+        "crowdType":"1"
       },
       {
         "id":"15",
@@ -193,7 +253,11 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"980",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"22,4",
+        "end":"22,7",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"16",
@@ -205,7 +269,11 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"840",
-        "speed":"6km/h"
+        "speed":"6km/h",
+        "start":"22,4",
+        "end":"22,7",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"17",
@@ -217,7 +285,11 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"870",
-        "speed":"19km/h"
+        "speed":"19km/h",
+        "start":"22,1",
+        "end":"22,2",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"18",
@@ -229,22 +301,14 @@
         "reason":"正值下班高峰期",
         "threshold":"800",
         "nowHold":"890",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"18,2",
+        "end":"18,5",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
         "id":"19",
-        "lgd":"120.130528",
-        "lat":"30.284768",
-        "status":"0",
-        "address":"万塘路与文三路交叉口南北向部分路段",
-        "length":"约120米",
-        "reason":"正值下班高峰期",
-        "threshold":"600",
-        "nowHold":"640",
-        "speed":"19km/h"
-      },
-      {
-        "id":"20",
         "lgd":"120.126103",
         "lat":"30.28538",
         "status":"0",
@@ -253,10 +317,14 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"780",
-        "speed":"17km/h"
+        "speed":"17km/h",
+        "start":"12,4",
+        "end":"12,6",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
-        "id":"21",
+        "id":"20",
         "lgd":"120.117111",
         "lat":"30.283437",
         "status":"0",
@@ -265,22 +333,14 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"760",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"8,5",
+        "end":"8,6",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
-        "id":"22",
-        "lgd":"120.111303",
-        "lat":"30.288061",
-        "status":"0",
-        "address":"竞舟路与文二西路交叉口南北向部分路段",
-        "length":"约380米",
-        "reason":"道路维修",
-        "threshold":"700",
-        "nowHold":"770",
-        "speed":"18km/h"
-      },
-      {
-        "id":"23",
+        "id":"21",
         "lgd":"120.106174",
         "lat":"30.287737",
         "status":"1",
@@ -289,10 +349,14 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"3,0",
+        "end":"7,2",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
-        "id":"24",
+        "id":"22",
         "lgd":"120.10051",
         "lat":"30.283145",
         "status":"0",
@@ -301,22 +365,14 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"750",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"2,3",
+        "end":"2,4",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
-        "id":"25",
-        "lgd":"120.099023",
-        "lat":"30.292902",
-        "status":"0",
-        "address":"紫荆花路与文二西路交叉口南北向部分路段",
-        "length":"约100米",
-        "reason":"正值下班高峰期",
-        "threshold":"700",
-        "nowHold":"770",
-        "speed":"19km/h"
-      },
-      {
-        "id":"26",
+        "id":"23",
         "lgd":"120.105186",
         "lat":"30.292726",
         "status":"0",
@@ -325,10 +381,14 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"780",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"2,2",
+        "end":"7,1",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
-        "id":"27",
+        "id":"24",
         "lgd":"120.125511",
         "lat":"30.293997",
         "status":"1",
@@ -337,10 +397,14 @@
         "reason":"红绿灯路口发生交通事故",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"11,2",
+        "end":"14,0",
+        "direction":"right",
+        "crowdType":"1"
       },
       {
-        "id":"28",
+        "id":"25",
         "lgd":"120.125385",
         "lat":"30.295072",
         "status":"1",
@@ -349,10 +413,14 @@
         "reason":"红绿灯路口发生交通事故",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"12,0",
+        "end":"12,2",
+        "direction":"bottom",
+        "crowdType":"1"
       },
       {
-        "id":"29",
+        "id":"26",
         "lgd":"120.125322",
         "lat":"30.296047",
         "status":"0",
@@ -361,10 +429,14 @@
         "reason":"红绿灯路口发生交通事故",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"12,0",
+        "end":"12,2",
+        "direction":"bottom",
+        "crowdType":"1"
       },
       {
-        "id":"30",
+        "id":"27",
         "lgd":"120.132455",
         "lat":"30.294211",
         "status":"1",
@@ -373,10 +445,14 @@
         "reason":"桥上限速通行",
         "threshold":"700",
         "nowHold":"900",
-        "speed":"8km/h"
+        "speed":"8km/h",
+        "start":"14,0",
+        "end":"16,1",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
-        "id":"31",
+        "id":"28",
         "lgd":"120.135367",
         "lat":"30.295441",
         "status":"0",
@@ -385,22 +461,14 @@
         "reason":"正值下班高峰期",
         "threshold":"700",
         "nowHold":"750",
-        "speed":"19km/h"
+        "speed":"19km/h",
+        "start":"16,0",
+        "end":"16,1",
+        "direction":"bottom",
+        "crowdType":"0"
       },
       {
-        "id":"32",
-        "lgd":"120.109788",
-        "lat":"30.293543",
-        "status":"0",
-        "address":"竞舟路与文一路交叉口附近南北向部分路段",
-        "length":"约50米",
-        "reason":"正值下班高峰期",
-        "threshold":"700",
-        "nowHold":"720",
-        "speed":"18km/h"
-      },
-      {
-        "id":"33",
+        "id":"29",
         "lgd":"120.113022",
         "lat":"30.299806",
         "status":"0",
@@ -409,10 +477,14 @@
         "reason":"隧道维修",
         "threshold":"800",
         "nowHold":"810",
-        "speed":"18km/h"
+        "speed":"18km/h",
+        "start":"4,0",
+        "end":"12,0",
+        "direction":"right",
+        "crowdType":"0"
       },
       {
-        "id":"34",
+        "id":"30",
         "lgd":"120.141157",
         "lat":"30.299448",
         "status":"1",
@@ -421,7 +493,11 @@
         "reason":"隧道维修",
         "threshold":"800",
         "nowHold":"980",
-        "speed":"10km/h"
+        "speed":"10km/h",
+        "start":"16,0",
+        "end":"19,0",
+        "direction":"right",
+        "crowdType":"0"
       }
     ]
   }

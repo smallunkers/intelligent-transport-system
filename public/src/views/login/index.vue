@@ -11,7 +11,7 @@
             </el-form-item>
             <el-form-item>
                 <el-input name="password"  @keyup.enter.native="handleLogin" v-model="loginForm.password"
-                          autoComplete="on"
+                          autoComplete="on" type="password"
                           placeholder="密码"/><i class="icon-eye icon"></i>
             </el-form-item>
             <el-collapse-transition>
@@ -64,13 +64,17 @@
             handleLogin () {
                 let loadingInstance = Loading.service(this.loadingOptions);
                 this.$store.dispatch('userLogin',this.loginForm).then((value)=>{
-                    if (value.code!=0) {
-                        this.$nextTick(()=>{
-                            loadingInstance.close();
-                        });
-                        this.$router.push('/home');
+                    console.log(value)
+                    if (value.code =='0') {
+                        loadingInstance.close();
+                        let date = new Date()
+                        date.setTime(date.getTime()+24*60*60*1000)
+                        let expires="expires="+date.toGMTString();
+                        document.cookie= `userName=${value.data.userInfo.userName};${expires}`
+                        this.$router.push('/home/roadInfo');
                     }else{
                         this.toggleFailTip();
+                        loadingInstance.close();
                     }
                 });
             },

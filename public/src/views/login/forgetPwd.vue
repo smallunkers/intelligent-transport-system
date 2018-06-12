@@ -7,7 +7,7 @@
             <el-form-item prop="userId" >
                 <el-input v-model="userIdForm.userId" placeholder="验证您的用户标识id"></el-input>
             </el-form-item>
-            <el-button @click="holdSubmit" type="primary">提交</el-button>
+            <el-button @click="userForgetPwd" type="primary">提交</el-button>
         </el-form>
         <el-form v-else :model="changePassForm" class="changePass-container">
             <div class="enter-pass">
@@ -19,7 +19,7 @@
             <el-form-item prop="confirmPassword">
                 <el-input v-model="changePassForm.confirmPassword" placeholder="确认密码"></el-input>
             </el-form-item>
-            <el-button @click="changePassword" type="primary">提交</el-button>
+            <el-button @click="nextStep" type="primary">下一步</el-button>
         </el-form>
     </div>
 </template>
@@ -31,7 +31,7 @@
         data() {
             return {
                 showObj:{
-                    showForm: true,
+                    showForm: false,
                 },
                 userIdForm:{
                     userId:''
@@ -64,22 +64,12 @@
             toggleForm() {
                 this.showObj.showForm = !this.showObj.showForm;
             },
-            holdSubmit () {
-                this.$store.dispatch('checkUser',this.userIdForm).then((resp)=>{
-                    if(resp.code==0){
-                        this.changePassForm.userid = this.userIdForm.userId;
-                        this.toggleForm();
-                    }else{
-                        this.$notify({
-                            title:'错误',
-                            message:'不存在该id',
-                            type:'error',
-                        });
-                    }
-                });
+            nextStep () {
+                this.toggleForm();
             },
-            changePassword () {
-                this.$store.dispatch('changePassword',this.changePassForm).then((resp)=>{
+            userForgetPwd () {
+                this.changePassForm.userid = this.userIdForm.userId;
+                this.$store.dispatch('userForgetPwd',this.changePassForm).then((resp)=>{
                     if(resp.code==0){
                         const title = '修改成功';
                         const content = '修改密码成功，即将跳转回登录页面';

@@ -60,14 +60,20 @@
             },
             register () {
                 const title = '注册成功！';
-                this.$store.dispatch('userRegister').then((resp) => {
-                    if(resp.code==0) {
+                this.$store.dispatch('userRegister',this.registerForm).then((resp) => {
+                    if(resp.code=='0') {
                         let content = '您的唯一用户标识为' + resp.data.userId + ',请记住您的标识，切勿泄露他人！';
                         this.$alert(content,title,{
                             confirmButtonText:'确认',
                             callback: () => {
                                 this.$router.push('/home');
                             }
+                        });
+                    }else if(resp.code == '16001'){
+                        this.$notify({
+                            title:'错误',
+                            message:'该用户名已经被注册',
+                            type:'error',
                         });
                     }else {
                         this.$notify({

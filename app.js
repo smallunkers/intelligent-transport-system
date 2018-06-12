@@ -7,6 +7,10 @@ let compiler = webpack(webpackConfig);// 调用webpack并把配置传递过去
 let session = require('express-session');
 let router = express.Router();
 let RedisStrore = require('connect-redis')(session);
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
 
 app.all('/index',function (req,res,next) {
     if (req.session.user){
@@ -30,19 +34,20 @@ app.use(require("webpack-hot-middleware")(compiler));
 app.use(devMiddleware);
 
 // session 中间件
-app.use(session({
-    secret: 'secret',  // 进行签名使用
-    resave:true, // 强制会话保存
-    saveUninitialized: true, // 强制未初始化的会话保存到存储
-    cookie:{path:'/', httpOnly:true, secure: false, maxAge:1000*60*60*24},
-    store : new RedisStrore({
-        "host" : "127.0.0.1",
-        "port" : "6379",
-        "db" : 1,
-        "ttl" : 1800,
-        "logErrors" : true
-    })
-}));
+// app.use(session({
+//     secret: 'secret',  // 进行签名使用
+//     resave:true, // 强制会话保存
+//     saveUninitialized: true, // 强制未初始化的会话保存到存储
+//     cookie:{path:'/', httpOnly:true, secure: false, maxAge:1000*60*60*24},
+//     store : new RedisStrore({
+//         "host" : "127.0.0.1",
+//         "port" : "6379",
+//         "db" : 1,
+//         "ttl" : 1800,
+//         "logErrors" : true
+//     })
+// }));
+
 // app.use('/', require('./routes/authSession'));
 // app.all('/index',function (req,res,next) {
 //     if (req.session.user){

@@ -7,7 +7,11 @@ const user = {
         },
         userInfo: {
 
-        }
+        },
+        forgetPwdMsg:null,
+        userRegister:{},
+        forgetPwd:{}
+
     },
     mutations:{
         SET_LOGIN_ERROR_MSG:(state, message) =>{
@@ -15,15 +19,22 @@ const user = {
         },
         SET_LOGIN_USER_INFO:(state, message) => {
             state.userInfo = message;
+        },
+        SET_FORGET_PWD:(state, message) => {
+            state.forgetPwd = message
+        },
+        SET_USER_REGISTER:(state, message) => {
+            state.userRegister = message
         }
     },
     actions: {
         userLogin({commit}, data) {
             return  new Promise((resolve,reject)=> {
-                 login(data).then((resp) => {
+                 login(data).then((res) => {
+                     let resp = res.data
                     if (resp.code == 0) {
+                        console.log(resp)
                         commit('SET_LOGIN_USER_INFO', resp.data.userInfo);
-                        location.href = '/';
                     } else {
                         commit('SET_LOGIN_ERROR_MSG', resp.msg);
                     }
@@ -35,31 +46,19 @@ const user = {
         },
         userForgetPwd({commit}, data) {
             return new Promise((resolve,reject)=> {
-                forgetPassword({data}).then((resp) => {
+                forgetPassword(data).then((res) => {
+                    let resp = res.data
                     if(resp.code == 0) {
+                       commit('SET_FORGET_PWD',resp.data)
 
                     }else {
-
+                        console.log(resp.msg)
                     }
                     resolve(resp);
                 }).catch((error)=>{
                     reject(error);
                 })
             });
-        },
-        checkUser ({commit},data) {
-            return new Promise((resolve,reject) => {
-                checkUserId(data).then((resp)=>{
-                    if (resp.code==0) {
-
-                    }else{
-
-                    }
-                    resolve(resp);
-                }).catch((error)=>{
-                    reject(error);
-                })
-            })
         },
         changePassword({commit},data) {
             return new Promise((resolve,reject)=> {
@@ -77,11 +76,12 @@ const user = {
         },
         userRegister ({commit},data) {
             return new Promise((resolve,reject) => {
-                register(data).then((resp) => {
+                register(data).then((res) => {
+                    let resp = res.data
                     if (resp.code==0){
-
+                        commit('SET_USER_REGISTER',resp.data)
                     }else {
-
+                        console.log(resp.msg)
                     }
                     resolve(resp);
                 }).catch(error=>{

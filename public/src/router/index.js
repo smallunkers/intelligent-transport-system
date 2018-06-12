@@ -58,7 +58,7 @@ const constantRouterMap = [
             }
         ],
     },
-    {path:'/',redirect:'/home'},
+    {path:'/',redirect:'/home/roadInfo'},
     {path: '/404',component:Error404},
     {path:'*',redirect:'/404'}
 

@@ -1138,6 +1138,13 @@
             "endLgd":"120.108223",
             "endLat":"30.271511",
             "speedSection":"30"
+          },
+          {
+            "startLgd":"120.099072",
+            "startLat":"30.293379",
+            "endLgd":"120.099",
+            "endLat":"30.292428",
+            "speedSection":"36"
           }
         ],
         "roadYellow":[
@@ -1248,13 +1255,6 @@
           }
         ],
         "roadYellow":[
-          {
-            "startLgd":"120.099072",
-            "startLat":"30.293379",
-            "endLgd":"120.099",
-            "endLat":"30.292428",
-            "speedSection":"36"
-          },
           {
             "startLgd":"120.100473",
             "startLat":"30.283447",
@@ -1457,9 +1457,7 @@
             "endLgd":"120.11321",
             "endLat":"30.273879",
             "speedSection":"53"
-          }
-        ],
-        "roadYellow":[
+          },
           {
             "startLgd":"120.109743",
             "startLat":"30.293745",
@@ -1475,6 +1473,7 @@
             "speedSection":"30"
           }
         ],
+        "roadYellow":[],
         "roadRed":[],
         "carFlow":"",
         "speed":""
@@ -2103,9 +2102,7 @@
             "endLgd":"120.130765",
             "endLat":"30.278475",
             "speedSection":"46"
-          }
-        ],
-        "roadYellow":[
+          },
           {
             "startLgd":"120.130414",
             "startLat":"30.28527",
@@ -2114,6 +2111,7 @@
             "speedSection":"31"
           }
         ],
+        "roadYellow":[],
         "roadRed":[],
         "carFlow":"",
         "speed":""

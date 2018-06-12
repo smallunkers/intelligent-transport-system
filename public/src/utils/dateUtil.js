@@ -15,8 +15,8 @@ export function formatDate(locale) {
     let date = new Date(Date.now());
     let nowDate = {};
     nowDate.year = date.getFullYear();
-    nowDate.month = (date.getMonth()+1) < 10 ? '0' + date.getMonth(): date.getMonth()+1;
-    nowDate.day = date.getDay() < 10 ? '0' + date.getDay(): date.getDay();
+    nowDate.month = (date.getMonth()+1) < 10 ? '0' + (date.getMonth() + 1): date.getMonth()+1;
+    nowDate.day = date.getDate() < 10 ? '0' + date.getDate(): date.getDate();
     let resultWeekday= '';
      switch (date.getDay()) {
         case 1:
